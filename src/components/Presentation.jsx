@@ -9,7 +9,7 @@ const Presentation = () => {
           Mi nombre es
         </p>
         <span>
-          <h1 className='text-sm sm:text-2xl text-blue-700 font-semibold'>
+          <h1 className='text-xl sm:text-2xl text-blue-700 font-semibold'>
             Valentina Bossy, creadora de BOSSY SKINCARE.
           </h1>
         </span>
