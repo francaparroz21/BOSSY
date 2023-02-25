@@ -4,20 +4,25 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "": [""],
+        'Cremona':['Cremona','sans-serif'],
+        'Urbanist':['Urbanist','sans-serif'],
+        'UrbanistMedium':['UrbanistMedium','sans-serif'],
+        'UrbanistSemibold':['UrbanistSemibold','sans-serif'],
       },
       colors: {
-        pallete: {
-          FrenchWine: "#AB0A45",
-          BakerMillerPink: "#FF8FB8",
-          VeryPaleYellow: "#FFFDBC",
-          DarkSeaGreen: "#97CB86",
-          PersianGreen: "#11AA95",
+        palette: {
+          Auburn: '#AA302B',
+          SoftAuburn: '#C25A5C',
+          Peach:'#F8B791',
+          SoftPeach:'#F8B8AF',
+          OldRose:'#AE7886',
+          OrchidPink: '#DEB2BF',
+          ChampagnePink:'#F1DDD6'
         },
       },
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('./node_modules/flowbite/plugin')
   ],
 };
