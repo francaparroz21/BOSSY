@@ -1,9 +1,27 @@
 #root {
   max-width: 100%;
 }
-
+@font-face {
+  font-family: Cremona;
+  src: url(./assets/static/fonts/Cremona-Regular.ttf);
+}
+@font-face {
+  font-family: Urbanist;
+  src: url(./assets/static/fonts/Urbanist-Regular.ttf);
+}
+@font-face {
+  font-family: UrbanistMedium;
+  src: url(./assets/static/fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+  font-family: UrbanistSemibold;
+  src: url(./assets/static/fonts/Urbanist-SemiBold.ttf);
+}
 @media (prefers-reduced-motion) {
   #root {
     animation: none;
   }
+}
+.elipse{
+  clip-path: path('M 0 1500 L 0,405 A 11,7 0,0,1 1280,405 L 1280 1500 z');
 }
