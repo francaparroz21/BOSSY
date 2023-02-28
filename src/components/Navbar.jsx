@@ -1,22 +1,18 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
-  const links = [
-    "Quién soy",
-    "Servicios",
-    "Productos",
-    "Capacitaciones",
-    "Preguntas Frecuentes",
-    "Tips",
-  ];
+  const links = ["Quién soy","Servicios","Productos","Capacitaciones","Preguntas Frecuentes","Tips",];
+  const codeLinks = ["quien-soy","servicios","productos","capacitaciones","faq","tips"];
+
   return (
     <nav className="mx-4 my-5 sm:m-0 rounded border-gray-200 dark:bg-gray-900">
       <div className="container flex flex-wrap md:flex-nowrap items-center mx-auto">
-        <a href="#" className="w-fit">
+        <Link to={"/"} className="w-fit hover:brightness-110 transition-all">
           <img
             src="/src/assets/static/bossyLogo.png"
             className="w-6 md:w-[10rem]"
             alt="bossyLogo"
           />
-        </a>
+        </Link>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -40,14 +36,14 @@ const Navbar = () => {
         </button>
         <div className="hidden w-full md:block" id="navbar-default">
           <ul className="flex flex-col p-4 gap-6 border border-gray-700 rounded-lg md:flex md:flex-row md:justify-evenly md:border-0 md:bg-inherit dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            {links.map((el) => (
-              <li key={el}>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-lg text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:underline md:underline-offset-8 md:decoration-4 md:decoration-palette-Auburn md:p-0 font-UrbanistMedium dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            {links.map((el,i) => (
+              <li key={i}>
+                <Link
+                  to={codeLinks[i]}
+                  className="block py-2 pl-3 pr-4 text-xl text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:underline md:underline-offset-8 md:decoration-4 md:decoration-palette-Auburn md:p-0 font-UrbanistMedium dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition-all"
                 >
                   {`${el}`}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
