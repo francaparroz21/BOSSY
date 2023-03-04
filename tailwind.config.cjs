@@ -12,6 +12,7 @@ module.exports = {
         "Urbanist": ["Urbanist", "sans-serif"],
         "UrbanistMedium": ["UrbanistMedium", "sans-serif"],
         "UrbanistSemibold": ["UrbanistSemibold", "sans-serif"],
+        "UrbanistBold":["UrbanistBold","sans-serif"]
       },
       colors: {
         palette: {
