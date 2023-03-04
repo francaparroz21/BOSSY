@@ -4,7 +4,7 @@ const Navbar = () => {
   const codeLinks = ["quien-soy","servicios","productos","capacitaciones","faq","tips"];
 
   return (
-    <nav className="mx-4 my-5 sm:m-0 rounded border-gray-200 dark:bg-gray-900">
+    <nav className="container mx-4 my-5 sm:m-0 rounded border-gray-200 dark:bg-gray-900">
       <div className="container flex flex-wrap md:flex-nowrap items-center mx-auto">
         <Link to={"/"} className="w-fit hover:brightness-110 transition-all">
           <img
@@ -40,7 +40,7 @@ const Navbar = () => {
               <li key={i}>
                 <Link
                   to={codeLinks[i]}
-                  className="block py-2 pl-3 pr-4 text-xl text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:underline md:underline-offset-8 md:decoration-4 md:decoration-palette-Auburn md:p-0 font-UrbanistMedium dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition-all"
+                  className="block py-2 pl-3 pr-4 text-xl text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:underline md:underline-offset-8 md:decoration-4 md:decoration-palette-Auburn  md:p-0 font-UrbanistMedium dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition-all"
                 >
                   {`${el}`}
                 </Link>

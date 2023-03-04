@@ -1,7 +1,7 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { ProductCarousel } from "./components/Products";
+import { NewCarousel } from "./components/Products";
 import Presentation from "./components/Presentation";
 import FAQ from "./components/FAQ";
 import About from "./components/About";
@@ -13,17 +13,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App container ">
+      <div className="App container w-[98vw]">
         <Navbar />
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Presentation/>}/>
-          <Route path="/quien-soy" element={<About/>}/>
-          <Route path="/servicios" element={<Services/>}/>
-          <Route path="/servicios/:servicioId" element={<Services/>}/>
-          <Route path="/productos" element={<ProductCarousel/>}/>
-          <Route path="/capacitaciones" element={<Courses/>}/>
-          <Route path="/faq" element={<FAQ/>}/>
-          <Route path="/tips" element={<Tips/>}/>
+          <Route path="/" element={<Presentation />} />
+          <Route path="/quien-soy" element={<About />} />
+          <Route path="/servicios" element={<Services />} />
+          <Route path="/servicios/:servicioId" element={<Services />} />
+          <Route path="/productos" element={<NewCarousel />} />
+          <Route path="/capacitaciones" element={<Courses />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/tips" element={<Tips />} />
         </Routes>
         <Footer />
       </div>
