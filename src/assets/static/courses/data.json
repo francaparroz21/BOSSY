@@ -49,7 +49,7 @@
     },
     {
       "id": 4,
-      "title": "Diseño, perfilado y laminado de cejas con henna",
+      "title": "  Diseño, perfilado y laminado con Henna",
       "desc": "En esta capacitación aprenderán un servicio personalizado de depilación que consiste en darle la forma correcta a las cejas respetando su curvatura. Se tienen en cuenta varios factores como su forma natural, tipo y cantidad de pelo, forma de ojos y de rostro",
       "topics": [
         "¿Qué es diseño y perfilado de cejas?",
@@ -80,7 +80,7 @@
     },
     {
       "id": 5,
-      "title": "Masterclass ACNÉ y extracciones",
+      "title": "Masterclass acné y extracciones ",
       "desc": "Esta capacitación está orientado a la profundización sobre esta afección tan frecuentemente consultada. Vamos aprender a como abordar pacientes con acné, que herramientas tienen a disposición y que recomendaciones brindarles",
       "topics": [
         "Acné, cómo se desarrolla esta afección",
@@ -125,7 +125,7 @@
     },
     {
       "id": 8,
-      "title": "Masajes sedativos y descontracturantes",
+      "title": "Masajes Sedativos y Descontracturantes",
       "desc": "En este curso le brindaremos herramientas a los profesionales para el abordaje de tratamientos descontracturantes y sedativos en gabinete. Aprenderemos a estimular la acción muscular y a su vez, mejorar la circulación linfática y venosa, promoviendo la eliminación de desechos o toxinas del organismo. Además, es el mejor método para aliviar la fatiga muscular a causa de estrés, ejercicio excesivo o cansancio.",
       "topics": [
         "Sistema óseo muscular",
@@ -161,106 +161,268 @@
   ],
   "products": [
     {
-      "id": 0,
-      "title": "Protector Solar",
-      "desc": "De rápida absorción. Alta protección que ayuda a prevenir las quemaduras solares. Hidrata y nutre la piel. PRINCIPIOS ACTIVOS: Filtros UVA y UVB. Una combinación de filtros físicos y químicos que brindan protección UV de amplio espectro.",
-      "img": ""
-    },
-    {
-      "id": 1,
-      "title": "Alpine Roses Cleanser - Emulsión",
-      "desc": "Limpiador suave facial. Fórmula súper innovadora que produce una microemulsión y efectúa una limpieza profunda, pero sin irritar la piel. Limpia y desmaquilla. No altera el equilibrio natural de la piel. Ideal para pieles sensibles o delicadas.",
-      "img": ""
-    },
-    {
-      "id": 2,
-      "title": "Vitamin C Cleanser - Gel de limpieza renovador",
-      "desc": "BENEFICIOS: Remueve impurezas, sebo y sudor de la superficie de la piel sin dañar su equilibrio natural. Con liposomas de Vitamina C deja la piel suave y luminosa con una sensación refrescante conservando la hidratación natural de la piel. Potencia la luminosidad de la piel. ¦ Mejora la textura y elasticidad, suaviza e hidrata profundamente. PRINCIPIOS ACTIVOS: Liposomas de Vitamina C Antioxidante, participa de la síntesis de colágeno, regenerador, cicatrizante, antiinflamatorio, de acción fotoprotectora y despigmentante.",
-      "img": ""
-    },
-    {
-      "id": 3,
-      "title": "Exfoliating Scrub - Gel exfoliante suave purificante",
-      "desc": "BENEFICIOS: Elimina impurezas y células córneas de la superficie de la piel. Afina la piel y suaviza la superficie. Minimiza el aspecto de los poros. Deja la piel libre de impurezas y visiblemente clarificada. PRINCIPIOS ACTIVOS: Alfahidroxiácidos (exfoliación biológica) para facilitar la exfoliación mecánica sin generar irritación por frotación. Micropartículas para exfoliación mecánica.",
-      "img": ""
-    },
-    {
-      "id": 4,
-      "title": "Idraet Pro Reti C Scrub - Exfoliante facial y corporal Vitamin C",
-      "desc": "Una terapia muy en uso y rescatada de otras culturas en la actualidad y de lo que quiero mostrar en el siguiente taller. En esta terapia interactuamos con minerales y piedras que al colocarlos en el lugar exacto de cada cuerpo pueden hacer vibrar determinadas partes energéticas o los chakras de nuestro cuerpo sutil, sanando así nuestro cuerpo o, simplemente energetizándolo y confiriéndole un mayor bienestar. ̈Todos somos energía ̈y los cristales como los seres humanos somos conductores de energía. Podemos potenciar elevando la frecuencia de cualquiera de nuestras terapias o técnicas integrando la vibración de los cristales.",
-      "img": ""
-    },
-    {
-      "id": 5,
-      "title": "Protective Toner - Loción tónica calmante",
-      "desc": "Exfoliante facial y corporal. Remueve células muertas, impurezas y contaminación de la superficie. Aporta suavidad a la piel. Aplicar máximo una vez por semana. Con Vitamina C Liposomal, Retinol Liposomal y Exfoliante de carozo de damasco que dejan tu piel aterciopelada y flexible.",
-      "img": ""
-    },
-    {
-      "id": 6,
-      "title": "Hyaluronic B5 Bio-osmotic Lotion - Lociòn osmoprotectora",
-      "desc": "Loción osmo protectora que evita la deshidratación a lo largo del día y protege la piel de los factores externos. Confort para pieles deshidratadas y delicadas. Hipoalergénico. Sin parabenos. Sin aceites minerales. Sin colorantes. Sin alcohol",
-      "img": ""
-    },
-    {
-      "id": 7,
-      "title": "Thermal New Light - Crema hidratante ligera",
-      "desc": "Penetra instantáneamente, restableciendo el film hidrolipídico protector de la piel y aportando minerales de propiedades calmantes y desensibilizantes. Calma y suaviza las pieles más sensibles y maltratadas. Estimula la función metabólica celular y refuerza la cohesión celular.",
-      "img": ""
-    },
-    {
-      "id": 8,
-      "title": "Hyaluronic Serum - Serum hialurónico",
-      "desc": "Este serum rico en Ácido Hialurónico tiene la habilidad de retener la máxima cantidad de agua que la epidermis pueda absorber, así la piel estará mejor preparada para resistir la formación de arrugas y deterioros, desacelerando el proceso de envejecimiento. Idraet Serum Hialurónico incrementa la elasticidad en la piel, disminuye la apariencia de arrugas y reduce el tamaño de los poros. Sella y absorbe la humedad y nutrientes, haciendo la piel más saludable, suave y tersa. Indicado sobre todo tipo de pieles, y especialmente en deshidratadas. PRINCIPIOS ACTIVOS: HIDRATACIÓN INTENSIVA 0,2%, ÁCIDO HIALURÓNICO 4%, CAESALPINIA SPINOSA",
-      "img": ""
-    },
-    {
-      "id": 9,
-      "title": "Vitamin C Serum - Serum revitalizante",
-      "desc": "Protege la piel de la acción de los radicales libres producidos por el sol, la contaminación o el humo del tabaco. Ayuda a mejorar el tono de la piel y la producción de colágeno. Serum gel de propiedades revitalizantes y energizantes, deja la piel suave y aterciopelada, radiante, vital y muy luminosa. Puede ser utilizado solo o previo al cuidado diario hidratante. PRINCIPIOS ACTIVOS: Vitamina C de alta pureza, estabilizada y protegida contra la oxidación.",
-      "img": ""
-    },
-    {
       "id": 10,
-      "title": "Pro Hyaluron - Seerum para relleno de arrugas",
-      "desc": "BENEFICIOS: Elimina arrugas finas y minimiza arrugas profundas. Reduce un 15,5% la profundidad de arrugas en sólo 3 horas. Para un efecto localizado en arrugas de la frente, contorno de ojos, patas de gallo y contorno de labios. PRINCIPIOS ACTIVOS: Ácido Hialurónico Por su pequeño tamaño penetra a través de la epidermis y la dermis. Es Antioxidante, hidratante y fotoprotector. Mejora la función de barrera, promueve la proliferación de los fibroblastos y estimula la reparación luego de la exposición a la radiación. G.A.B.A es un aminoácido que actúa como neurotransmisor inhibiendo o estimulando el sistema nervioso central. Al ser pequeño posee gran penetración cutánea, estimula al receptor GABA A produciendo la relajación de músculos de la expresión.",
-      "img": ""
+      "title": "ALPINE ROSES CLEANSER EMULSION",
+      "desc": "Limpiador suave facial. Fórmula súper innovadora que produce una microemulsión y efectúa una limpieza profunda, pero sin irritar la piel. Limpia y desmaquilla. No altera el equilibrio natural de la piel. Ideal para pieles sensibles o delicadas.",
+      "img": "cleanse rose alpine.png",
+      "benef": [],
+      "mododeuso": "Aplicar una pequeña cantidad de producto en rostro, cuello y escote. Masajear unos segundos y luego enjuagar con algodón o esponjas embebidas en agua. El enjuague debe ser completo sin dejar residuos de producto. También se puede utilizar para el desmaquillado de párpados y labios.",
+      "principioactivo": ""
     },
     {
       "id": 11,
-      "title": "Rich Plasma Eye Contour - Controno de ojos y rejuvenecedor",
-      "desc": "Detiene los signos de envejecimiento y promueve la reparación del daño a nivel del ADN celular. Protege la delicada piel de los párpados. Mejora el aspecto general del contorno de los ojos, minimiza arrugas y reafirma la piel de los párpados. Reduce la apariencia de hinchazón y el aspecto oscuro de las bolsas y ojeras. PRINCIPIOS ACTIVOS: Juveleven, Péptidos de Cobre, Aceite de pepitas de damasco, Hamamelis, Mini Ácido Hialurónico , Liposomas de cafeína, Bluescreen (protección frente a la luz azul). No testeado en animales, hipoalergénico, libre de parabenos, aceites minerales, colorantes artificiales y fragancia.",
-      "img": ""
+      "title": "EXFOLIANTING SCRUB - GEL EXFOLIANTE SUAVE PURIFICANTE",
+      "desc": "",
+      "img": "gel exfoliante.png",
+      "benef": [
+        "Elimina impurezas y células córneas de la superficie de la piel,",
+        "Afina la piel y suaviza la superficie,",
+        "Minimiza el aspecto de los poros,",
+        "Deja la piel libre de impurezas y visiblemente clarificada,"
+      ],
+      "mododeuso": "Aplique sobre el rostro, evitando  el área de alrededor de ojos y labios. Masajear suavemente con la yema de los dedos mediante movimientos circulares. Retire con abundante agua fría o natural sin dejar residuos",
+      "principioactivo": "Alfahidroxiácidos (exfoliación biológica) para facilitar la exfoliación mecánica sin generar irritación por frotación. Micropartículas para exfoliación mecánica."
     },
     {
       "id": 12,
-      "title": "Vitamin C & Hyaluronic - Anti-age shock mask",
-      "desc": "Máscara Anti-Age de potente efecto revitalizante y relleno de arrugas. Estimula la síntesis de colágeno. Antioxidante. Ultra humectación. Revitalización instantánea de las pieles deshidratadas, envejecidas o desvitalizadas.",
-      "img": ""
+      "title": "Idraet Pro Reti C Scrub Exfoliante Facial Corporal Vitamin C",
+      "desc": "",
+      "img": "pro reti c exfoliante.png",
+      "benef": [
+        "Exfoliante facial y corporal,",
+        "Remueve células de la superficie, impurezas y contaminantes,",
+        "Deja la piel suave y flexible,"
+      ],
+      "mododeuso": "Aplicar una pequeña cantidad de producto sobre la piel limpia y masajear de forma circular y luego enjuagar. Usar como Máximo una vez por semana.",
+      "principioactivo": "Con Vitamina C Liposomal, Retinol Liposomal y Exfoliante de carozo de damasco que dejan tu piel aterciopelada yflexible."
     },
     {
       "id": 13,
-      "title": "Stress Out Anti-age Shock Mask - Relajante y redensificante",
-      "desc": "KNB es una nueva marca de Idraet que desarrollará una amplia línea de productos formulados con un péptido del patchouli que actúa sobre los receptores Cannabinoides. Máscara efecto shock Relajante y Redensificante, con efecto regenerador cutáneo y estimulante de mecanismos naturales de reparación. En el organismo existen receptores cannabinoides presentes en el cerebro, sistema nervioso, digestivo, inmunológico y también en la piel que se activan ante la señal de los péptidos endocannabinoides. KNB se formula con un péptido que actúa estimulando estos receptores de la piel produciendo múltiples beneficios: Efecto antioxidante y protector frente a los factores externos, las inclemencias del clima y el estrés ambiental (smog, calor, frío, viento, radiación UV, radicales libres). Mejora la función de barrera favoreciendo la hidratación natural de la piel. Estimula la síntesis de colágeno dérmico produciendo redensificación cutánea. Mejora las arrugas y elimina los finos pliegues e irregularidades de la piel. Mejora la textura y reduce el tamaño de los poros por su acción seborreguladora.",
-      "img": ""
+      "title": "RICH PLASMA CREAM - CREMA REJUVENECEDORA ANTI-AGE INTENSIVA",
+      "desc": "",
+      "img": "rich-plasma-cream.png",
+      "benef": [
+        "Detiene los signos del envejecimiento,",
+        "Aumenta el colágeno y elastina,",
+        "Efecto relleno de arrugas,",
+        "Antioxidante y Anti Polución digital,",
+        "Blue Light Technology,",
+        "De textura ultra emoliente, brinda confort a las pieles secas, extremadamente deshidratadas o maduras,"
+      ],
+      "mododeuso": "Aplicar sobre la piel limpia y tonificada en rostro, cuello y escote con suaves movimientos ascendentes. Luego aplicar maquillaje o protector solar. Se puede utilizar día y/o noche. Se puede combinar con Rich Plasma Serum aplicado previamente.",
+      "principioactivo": "Con CBD, Vitamina E y Té Rojo"
     },
     {
       "id": 14,
-      "title": "",
+      "title": "PROTECTOR SOLAR",
       "desc": "",
-      "img": ""
+      "img": "protector solar (1).png",
+      "benef": [
+        "De rápida absorción,",
+        "Alta protección que te ayuda a prevenir las quemaduras solares,",
+        "Hidrata y nutre la piel,"
+      ],
+      "mododeuso": "Una vez finalizada la rutina diaria de aplicación de cosméticos, aplicar una cantidad considerable de producto en rostro, cuello y escote, distribuir con suaves roces y toques hasta lograr una distribución homogénea.",
+      "principioactivo": "Filtros UVA y UVB. Una combinación de filtros físicos y químicos que brindan protección UV de amplio expectro."
     },
     {
       "id": 15,
-      "title": "Alpine Roses Mask - Máscara de células madre de rosas alpinas. 6 cápsulas",
-      "desc": "Revitaliza y regenera la piel mejorando su elasticidad y suavidad. Hidrata y humecta, protegiendo la piel de factores externos y daños por deshidratación. Formulada con Células Madre de Rosas Alpinas, actúan regenerando y reparando la piel, y Aceite de Pepitas de Damasco, de potente acción antioxidante. Libre de parabenos y Aceites Minerales. No testeada en animales. Hipoalergénica. Con Activos Ecocer",
-      "img": ""
+      "title": "PROTECTIVE TONER - LOCIÓN TÓNICA CALMANTE",
+      "desc": "",
+      "img": "locion tonica.png",
+      "benef": [
+        "Aporta minerales de propiedades desensibilizantes, que contribuyen a calmar y suavizar las pieles más sensibles y reactivas,",
+        "Rica en agua termal,",
+        "Normaliza el pH luego de la limpieza,"
+      ],
+      "mododeuso": "Extender una pequeña cantidad de gel sobre las manos húmedas, formar una suave espuma y aplicar en el rostro y cuerpo con masajes circulares. Aclarar con agua templada.",
+      "principioactivo": ""
+    },
+    {
+      "id": 16,
+      "title": "HYALURONIC B5 BIO-OSMOTIC LOTION",
+      "desc": "",
+      "img": "hyaluronic b5 lotion.png",
+      "benef": [
+        "Loción osmoprotectora que evita la deshidratación a lo largo del día y protege la piel de los factores externos,",
+        "Confort para pieles deshidratadas y delicadas,"
+      ],
+      "mododeuso": "Brumar sobre la piel limpia del rostro, cuello y escote. Se puede utilizar posterior a la higiene o en el momento que considere necesario.Se puede utilizar durante todo el día, incluso se puede brumizar sobre makeup o fotoprotector.",
+      "principioactivo": "Agua Termal. Ácido Hialurónico. Vitamina B5. Hydraskin. Extracto de Matcha. Aloe Vera. Hipoalergénico – Sin parabenos – Sin aceites minerales – Sin colorantes – Sin alcohol"
+    },
+    {
+      "id": 17,
+      "title": "THERMAL NEW LIGHT - CREMA HIDRATANTE LIGERA",
+      "desc": "",
+      "img": "thermal new light.png",
+      "benef": [
+        "Penetra instantáneamente, restableciendo el film hidrolipídico protector de la piel y aportando minerales de propiedades calmantes y desensibilizantes,",
+        "Calma y suaviza las pieles más sensibles y maltratadas,",
+        "Estimula la función metabólica celular y refuerza la cohesión celular,"
+      ],
+      "mododeuso": "Colocar una pequeña cantidad de producto y masajear hasta su total absorción. Se puede utilizar para realizar masajes faciales o como producto final.",
+      "principioactivo": "Agua Termal: Remineralizante. Soja activa de alta pureza: Hidratante y muy antioxidante debido al alto contenido de vitaminas, minerales y sobre todo isoflavonas. Agentes hidratantes."
+    },
+    {
+      "id": 18,
+      "title": "STRESS OUT ANTI-AGE SHOCK MASK - RELAJANTE Y REDENSIFICANTE ",
+      "desc": "",
+      "img": "stress out antiage.png",
+      "benef": [
+        "Máscara efecto shock Relajante y Redensificante,",
+        "Efecto regenerador cutáneo y estimulante de mecanismos naturales de reparación,",
+        "Efecto antioxidante y protector frente a los factores externos, las inclemencias del clima y el estrés ambiental,",
+        "Mejora la función de barrera favoreciendo la hidratación natural de la piel,",
+        "Estimula la síntesis de colágeno dérmico,",
+        "Mejora las arrugas y eliminando los finos pliegues e irregularidades de la piel,",
+        "Mejora la textura y reduce el tamaño de los poros por su acción seborreguladora,"
+      ],
+      "mododeuso": "Desplegar la máscara y aplicarla con cuidado sobre la piel limpia del rostro. Dejar actuar de 15 a 20 min. Retirar la máscara e incorporar con suaves tactos el producto. No es necesario enjuagar.",
+      "principioactivo": ""
+    },
+    {
+      "id": 19,
+      "title": "VITAMIN C SERUM - SERUM REVITALIZANTE ",
+      "desc": "",
+      "img": "vitamin c serumm.png",
+      "benef": [
+        "Protege la piel de la acción de los radicales libres producidos por el sol, la contaminación o el humo del tabaco,",
+        "Ayuda a mejorar el tono de la piel y la producción de colágeno,",
+        "De propiedades revitalizantes y energizantes, deja la piel suave y aterciopelada, radiante, vital y muy luminosa,"
+      ],
+      "mododeuso": "Aplique 2-3 gotas sobre la piel limpia de cara, cuello y escote, con suaves movimientos circulares, por la mañana o la noche, bajo la hidratante. Casos de flacidez, pieles fumadoras o fotodañadas de hombres y mujeres.",
+      "principioactivo": "Vitamina C de alta pureza, estabilizada y protegida contra la oxidación."
+    },
+    {
+      "id": 20,
+      "title": "RICH PLASMA EYE CONTOUR - CONTORNO DE OJOS - REJUVENECEDOR ",
+      "desc": "",
+      "img": "rich plasma.png",
+      "benef": [
+        "Detiene los signos de envejecimiento y promueve la reparación del daño a nivel del ADN Celular,",
+        "Protege la delicada piel de los párpados,",
+        "Mejora el aspecto general del contorno de los ojos, minimiza arrugas y reafirma la piel de los párpados,",
+        "Antioxidante y Anti Polución digital,",
+        "Reduce la apariencia de hinchazón y el aspecto oscuro de las bolsas y ojeras,"
+      ],
+      "mododeuso": "",
+      "principioactivo": "Juveleven. Péptidos de Cobre. Aceite de pepitas de damasco Hamamelis. Mini Ácido Hialurónico. Liposomas de cafeína. Bluescreen (protección frente a la luz azul). No testeado en animales, hipoalergénico, libre de parabenos, aceites minerales, colorantes artificiales y fragancia."
+    },
+    {
+      "id": 21,
+      "title": "PRO HYALURON - SEERUM PARA RELLENO DE ARRUGAS ",
+      "desc": "",
+      "img": "pro hyaluron.png",
+      "benef": [
+        "Elimina arrugas finas y minimiza arrugas profundas,",
+        "Reduce un 15,5% la profundidad de arrugas en sólo 3 horas,",
+        "Para un efecto localizado en arrugas de la frente, contorno de ojos, patas de gallo y contorno de labios,"
+      ],
+      "mododeuso": "Presionando el pulsador, aplique una dosis sobre el inicio de la arruga y extiéndala en forma continúa, rellenando la línea de la arruga hasta el final.",
+      "principioactivo": "Ácido Hialurónico, G.A.B.A"
+    },
+    {
+      "id": 22,
+      "title": "VITAMIN C & HYALURONIC - Anti-Age SHOCK MASK",
+      "desc": "",
+      "img": "vitamin c hyaluronic mask.png",
+      "benef": [
+        "Máscara Anti-Age de potente efecto revitalizante y relleno de arrugas,",
+        "Estimula la síntesis de colágeno,",
+        "Antioxidante,",
+        "Ultra humectación,",
+        "Revitalización instantánea de las pieles deshidratadas, envejecidas o desvitalizadas,"
+      ],
+      "mododeuso": "Desplegar la máscara y aplicarla con cuidado sobre la piel limpia del rostro. Dejar actuar de 15 a 20 min. Retirar la máscara e incorporar con suaves tactos el producto. No es necesario enjuagar.",
+      "principioactivo": ""
+    },
+    {
+      "id": 23,
+      "title": "SERUM HIALURÓNICO",
+      "desc": "",
+      "img": "serum hialuronico.png",
+      "benef": [
+        "Este serum tiene la habilidad de retener la máxima cantidad de agua que la epidermis pueda absorber,",
+        "Dejará mejor preparada la piel para resistir la formación de arrugas y deterioros,",
+        "Incrementa la elasticidad en la piel,",
+        "Disminuye el crecimiento y la apariencia de arrugas y reduce el tamaño de los poros,"
+        ],
+      "mododeuso": "Aplique 2-3 gotas sobre la piel limpia de cara, cuello y escote, con suaves movimientos circulares, por la mañana o la noche, antes del cuidado hidratante o anti-age diario.",
+      "principioactivo": "0,2% ÁCIDO HIALURÓNICO, 4% CAESOLPINIA SPINOSA"
+    },
+    {
+      "id": 24,
+      "title": "ALPINE ROSES MASK - MÁSCARA DE CÉLULAS MADRE DE ROSAS ALPINAS 6 CÁPSULAS",
+      "desc": "",
+      "img": "rosas  alpinas mask.png",
+      "benef": [
+        "Revitaliza y regenera la piel mejorando su elasticidad y suavidad,",
+        "Hidrata y humecta, protegiendo la piel de factores externos y daños por deshidratación,"
+        ],
+      "mododeuso": "Aplicar sobre el rostro el contenido completo de la cápsula sobre el rostro, dejar actuar de 10 a 15 minutos, retirar con abundante agua o con ayuda de una esponja facial.",
+      "principioactivo": "Formulada con Células Madre de Rosas Alpinas, actúan regenerando y reparando la piel, y Aceite de Pepitas de Damasco, de potente acción antioxidante."
+    },
+    {
+      "id": 25,
+      "title": "VITAMIN C EYES - SERUM CONTORNO DE OJOS",
+      "desc": "",
+      "img": "vitamina c ojos.png",
+      "benef": [
+        "Ilumina la mirada y aclara las ojeras,",
+        "Hidrata y mejora la apariencia de las finas arrugas,",
+        "Aumenta la elasticidad de la piel,"
+        ],
+      "mododeuso": "Desplazar el aplicador masajeador con suavidad por el contorno de los ojos, previamente limpios y tonificados, de forma lenta hasta total absorción.Luego colocar el producto de tratamiento habitual y/o maquillaje. Se puede utilizar por la mañana y por la noche.",
+      "principioactivo": ""
+    },
+    {
+      "id": 26,
+      "title": "CBD CREAM - CREMA ANTIAGE FACIAL",
+      "desc": "Crema facial antiage y antioxidante. Previene el envejecimiento prematuro y protege del estrés ambiental. Suave textura emoliente que deja la piel sedosa y luminosa. Para todo tipo de piel.",
+      "img": "cbd cream.png",
+      "benef": [],
+      "mododeuso": "",
+      "principioactivo": "Con CBD, Vitamina E y Té Rojo"
+    },
+    {
+      "id": 27,
+      "title": "CBD SERUM - SERUM ANTIAGE FACIAL",
+      "desc": "Serum facial antiage y antioxidante. Equilibra la hidratación y mantiene la piel saludable. Textura ligera de rápida absorción deja la piel suave y resplandeciente. Para todo tipo de piel.",
+      "img": "cbd-serum.png",
+      "benef": [],
+      "mododeuso": "",
+      "principioactivo": "Con CBD, Vitamina E y Té Rojo"
+    },
+    {
+      "id": 28,
+      "title": "ALPINE ROSES SCRUB - EXFOLIANTE SUAVE FACIAL",
+      "desc": "",
+      "img": "alpine roses scrub.png",
+      "benef": [
+        "Exfoliante facial que remueve gentilmente las células de la superficie, impurezas y contaminantes,",
+        "Deja la piel suave y aterciopelada,"
+        ],
+      "mododeuso": "Aplicar una pequeña cantidad de producto en rostro, cuello y escote. Masajear suavemente focalizándose en las zonas donde la piel está más gruesa y luego enjuagar con abundante agua. Se recomienda usar como máximo 1 vez por semana.",
+      "principioactivo": "Células Madre de Rosa Alpina, Nanoesferas de Vitamina A y E, Aceite de pepitas de Damasco, Agua de Rosas Blancas"
+    },
+    {
+      "id": 29,
+      "title": "VITAMIN C CLEANSER - GEL DE LIMPIEZA RENOVADOR ",
+      "desc": "",
+      "img": "vitamin c cleanser.png",
+      "benef": [
+        "Remueve impurezas, sebo y sudor de la superficie de la piel sin dañar su equilibrio natural,",
+        "Con liposomas de Vitamina C deja la piel suave y luminosa,",
+        "Mejora la textura y elasticidad, suaviza e hidrata profundamente,"
+        ],
+      "mododeuso": "Extender una pequeña cantidad de gel sobre las manos húmedas, formar una suave espuma y aplicar en el rostro y cuerpo con masajes circulares. Aclarar con agua templada.",
+      "principioactivo": "Liposomas de Vitamina C. Antioxidante, participa de la síntesis de colágeno, regenerador, cicatrizante, antiinflamatorio, de acción fotoprotectora y despigmentante."
     }
   ],
   "services": {
     "FYC": [
       {
-        "id": 1,
+        "id": 30,
         "title": "Limpieza Profunda",
         "desc": "Con la aplicación de limpiadores y máscaras específicas procedemos a eliminar todas las impurezas que se encuentran en la piel generadas por el mismo cuerpo y por el ambiente, lo cual obstruyen los poros e impide que nuestra piel pueda respirar. Luego realizamos extracciones que previamente preparamos para no dejar secuelas de marcas y así lograrás mantener tu piel limpia, libre de impurezas, dejando tu piel suave y luminosa.  En definitiva, con este tratamiento conseguimos tener una piel más sana, con un aspecto más joven, y regeneramos el cutis ",
         "benef": [],
@@ -271,7 +433,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 31,
         "title": "Limpieza Profunda + Cuello y Escote",
         "desc": "Se realiza una limpieza facial completa incluyendo cuello y escote, aplicando distintas máscaras, ácidos, cremas para obtener una piel más luminosa, brillante y sana. La piel del cuello y el escote es más fina y está menos expuesta a los factores externos que la del rostro, por lo que suele ser más delicada y necesitará cuidados más específicos. Debemos acostumbrarnos a incorporara nuestra rutina de belleza al cuello y el escote, porque requieren grandes dosis de hidratación, aceites, serums, y lo más importante es exfoliar estas zonas porque se encuentran impurezas generadas por el mismo cuerpo o ambiente.",
         "benef": [
@@ -288,7 +450,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 32,
         "title": "Limpieza Profunda + Extracciones",
         "desc": "Realizamos una limpieza profunda utilizando diferentes limpiadores, máscaras, ácidos que sean los más convenientes para tu piel y así eliminamos todas las impurezas que se encuentran en la epidermis generadas por el mismo cuerpo y por el ambiente. Con las extracciones lograrás mantener tu piel limpia, libre de impurezas y la punta de diamante elimina células muertas, dejando tu piel suave y luminosa.",
         "benef": [
@@ -305,7 +467,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 33,
         "title": "Limpieza con Espátula Ultrasónica",
         "desc": "Se realiza una limpieza mediante un proceso indoloro y que no agrede a la piel. Se utiliza para su aplicación la espátula ultrasónica de acero quirúrgico que se desliza sobre la piel, produciendo una vibración de origen ultrasónico que rompe la suciedad en partículas minúsculas. Reduce el sebo en las pieles grasas de manera perceptible y atenúa el acné. Está indicada sobre todo para pieles mixtas, grasas o deshidratadas y en pieles con acné. Este tipo de limpieza consigue realizar las funciones de extracción, estimulación de colágeno e ionización. Es el complemento ideal para tratamientos de rejuvenecimiento. Ya que ayuda a que los principios activos penetren en la piel con más profundidad y actúen con más intensidad. Gracias a esta capacidad de penetración en capas más profundas de la piel, consigue estimular a los fibroblastos en la producción de colágeno y elastina, otorgando firmeza a la musculación del rostro.",
         "benef": [],
@@ -316,7 +478,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 34,
         "title": "Peeling Ultrasónico",
         "desc": "Con la ayuda de nuestros queridos ácidos podemos renovar nuestra piel, eliminar las impurezas y unificar el tono de la piel para conseguir un rostro luminoso. El peeling está indicado para cualquier persona, hombre o mujer. Pero es especialmente efectivo para la renovación de la piel en aquellas personas que tienen acné, cicatrices o manchas en la piel. También está indicado para la piel fotoenvejecida, dañada por años de exposición al sol. Es un tratamiento no invasivo y de carácter ambulatorio, cuyos efectos se aprecian en pocos días.",
         "benef": [
@@ -332,7 +494,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 35,
         "title": "Lifting Facial",
         "desc": "Consiste en una serie de fluctuaciones entre movimientos rápidos y lentos para mejorar la circulación más profunda del rostro, cuello, hombros y parte superior del pecho.",
         "benef": [
@@ -354,7 +516,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 36,
         "title": "Limpieza con Péndulo",
         "desc": "El péndulo detecta y modula las energías de los campos energéticos circundantes, reaccionando a las necesidades para intentar restablecer el balance de la energía, complementando con otras técnicas de limpieza.Cuanto más profunda sea la limpieza más energías se van a remover y más efectos positivos se conseguirán una vez que se haya completado. Lo importante es que esta “purificación” sucede en todos los aspectos: físico, emocional, mental y espiritual.",
         "benef": [],
@@ -365,7 +527,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 37,
         "title": "Limpieza con Gemas",
         "desc": "Es una limpieza que consiste en utilizar gemas o piedras preciosas que varían según la necesidad de cada paciente. En cada sesión se trata de armonizar las energías y se utiliza tanto en niveles físicos, emocionales y espirituales. La curación consiste en colocar las piedras en el cuerpo o en lugares cercanos para ayudar a extraer la energía negativa. Las gemas y piedras preciosas tienen la capacidad de aportarnos equilibrio físico y mental a través de la aplicación de ciertos minerales. ",
         "benef": [
@@ -381,7 +543,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 38,
         "title": "Limpieza con Gua Sha",
         "desc": "Gua Sha facial es un masaje en rostro y cuello que se realiza con piedras talladas que se amoldan a la forma del rostro que ayuda a drenar la piel, mejorar su circulación y liberar tensión con lo que se crea un efecto rejuvenecedor.",
         "benef": [
@@ -398,7 +560,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 39,
         "title": "Masaje Relax",
         "desc": "El masaje relajante consiste en la realización de maniobras superficiales en las que la intensidad de la presión es suave y el ritmo lento y reiterativo, de manera que al recibir un contacto repetido y constante, se pierde la sensación de dolor y los músculos se relajan. El masaje relajante mejora el desempeño del sistema inmunológico y aumenta la producción de endorfinas y melatonina. ",
         "benef": [
@@ -415,7 +577,7 @@
         ]
       },
       {
-        "id": 11,
+        "id": 40,
         "title": "Spa con Gemas",
         "desc": "Este masaje es todo un ritual diseñado para equilibrar las energías del cuerpo. Se utilizan gemas semi preciosas de distintos colores las cuales son preparadas con baños de sol y luna previamente y se colocan durante el masaje en los centros energéticos corporales estimulando beneficios corporales y mentales. Cada color de piedra estimulará un chakra específico, en una renovación completa.",
         "benef": [],
@@ -426,7 +588,7 @@
         ]
       },
       {
-        "id": 12,
+        "id": 41,
         "title": "Spa con Pindas",
         "desc": "La función del masaje con pindas es equilibrar mente, cuerpo y alma mediante el movimiento en masajes relajantes, combinando el poder terapéutico de la fitoterapia y la aromaterapia. Con las pidas se ejerce presión sobre el cuerpo, activando los chakras a nivel energético y físico. ",
         "benef": [
@@ -444,7 +606,7 @@
         ]
       },
       {
-        "id": 13,
+        "id": 42,
         "title": "Spa con Piedras Volcánicas",
         "desc": "Consiste en colocar las piedras en distintas partes del cuerpo consideradas como puntos energéticos, que son los siguientes: La columna, la frente, el abdomen, las manos y los dedos de los pies. El masaje se suele combinar también con piedras frías a modo de contraste. Las piedras de origen volcánico, que por sus propiedades físicas retienen el calor y lo liberan progresivamente. Son ideales para tratar las dolencias musculares, alivia las contracturas, libera toxinas y oxigena las células.",
         "benef": [],
@@ -455,7 +617,7 @@
         ]
       },
       {
-        "id": 14,
+        "id": 43,
         "title": "Masajes con Ventosas",
         "desc": "La Terapia con Ventosas es una terapia muy antigua y universal y consiste en hacer un efecto de vacío en el cual la ventosa se pega al cuerpo, succiona la piel y parte del músculo, abre los poros y mueve la circulación sanguínea y linfática. Su finalidad es eliminar toxinas de la sangre y la linfa, y tratar diversas afecciones. Se combina con masajes descontracturantes",
         "benef": [],
@@ -466,7 +628,7 @@
         ]
       },
       {
-        "id": 15,
+        "id": 44,
         "title": "Fangoterapia",
         "desc": "Dermopulido corporal + hidratación + fangoterapia. Las principales propiedades del fango son su efecto exfoliante, que ayuda a la eliminación de los restos celulares y de las impurezas; la hidratación y mejora de la elasticidad, gracias a su alto contenido en minerales como el silicio, el magnesio, el zinc y el cobre; así como su efecto reafirmante y drenante que favorece la circulación sanguínea.",
         "benef": [],
@@ -477,7 +639,7 @@
         ]
       },
       {
-        "id": 16,
+        "id": 45,
         "title": "Limpieza de Espalda",
         "desc": "La espalda es la zona de nuestro cuerpo donde se encuentran la mayor cantidad de glándulas sebáceas, por lo tanto la posibilidad de producir impurezas son bastante altas.",
         "benef": [
@@ -497,7 +659,7 @@
     ],
     "CPYM": [
       {
-        "id": 17,
+        "id": 46,
         "title": "Diseño y Perfilado",
         "desc": "El diseño y perfilado de Cejas consiste en darle la forma correcta a las cejas respetando la forma natural de la misma.El procedimiento consiste en analizar tipo de ceja, cantidad de pelo , forma del ojo y rostro , para ofrecer a nuestra/o cliente un diseño posible según estas características.Lo ideal para mantener el diseño y no perder la forma es hacerlo aproximadamente cada 21 días, que es el ciclo del crecimiento del pelo, el procedimiento se realiza con pinza, perfilador y tijera.",
         "benef": [],
@@ -506,8 +668,9 @@
           "WhatsApp Image 2023-02-14 at 14.59.36.jpeg",
           "perfilado-2.jpg"
         ]
-      },{
-        "id": 18,
+      },
+      {
+        "id": 47,
         "title": "Perfilado + Henna",
         "desc": "La Henna es un pigmento orgánico que se utiliza para el tintado de cejas.Es una excelente opción para las personas que buscan resaltar sus cejas, es un tratamiento natural y no permanente. Su gran ventaja, es que no es invasivo.También es una técnica perfecta como paso previo al microblading, ya que permite ver el efecto de la ceja más marcada y completa, logrando un resultado similar al microblading pero no permanente.La henna tiñe la piel y dura alrededor de 1 semana, dependiendo del tipo de piel y es recomendable realizarlo dos días antes si tienes un evento.",
         "benef": [],
@@ -516,8 +679,9 @@
           "Copia de Perfilado con henna.jpeg",
           "whatsapp-image-2021-06-25-at-17-53-591-ca584d9cc34e578eef16246546349014-1024-1024.jpeg"
         ]
-      },{
-        "id": 19,
+      },
+      {
+        "id": 48,
         "title": "Laminado",
         "desc": "Primero se decide el diseño y forma de la ceja junto al profesional a cargo. Una vez alineados, se limpia la zona alrededor y se aplica el producto adhesivo que logrará unas cejas firmes e intactas durante mes y medio aproximadamente. El laminado de cejas es un tratamiento especialmente indicado para cejas onduladas y/o rebeldes. Consiste en la aplicación de producto específico en toda la extensión de las cejas para alisarlas y peinarlas de forma permanente.",
         "benef": [],
@@ -526,8 +690,9 @@
           "lami1-e94cd38fb33495c24d16340703796901-1024-1024.jpg",
           "laminado-cejas-benefit.jpg"
         ]
-      },{
-        "id": 20,
+      },
+      {
+        "id": 49,
         "title": "Laminado + Henna",
         "desc": "Consiste en darle la forma correcta a las cejas respetando la forma natural de la misma. Luego se aplica el producto adhesivo que logrará unas cejas firmes e intactas durante mes y medio aproximadamente. Al último se aplica la henna que es un producto orgánico que se utiliza para el tintado de las cejas, la henna tiñe la piel y dura alrededor de 1 semana, dependiendo del tipo de piel y es recomendable realizarlo dos días antes si tienes un evento.",
         "benef": [],
@@ -536,8 +701,9 @@
           "0b98b0_24a27cbe77f0454b9f07208a7a832dbc_mv2.jpg",
           "laminado-de-cejas-que-es.jpg"
         ]
-      },{
-        "id": 21,
+      },
+      {
+        "id": 50,
         "title": "Lifting + Botox + Tinte ó Henna",
         "desc": "Es un tratamiento que eleva la curvatura de tus pestañas, resaltando la expresión de la mirada y alargando las pestañas desde la raíz, sin utilizar pelo sintético. Se consigue gracias a unas almohadillas de silicona que se ajustan al párpado y, en lugar de “doblar el pelo”, lo estira y eleva hacia la punta, hasta su punto máximo. Se trata de una técnica que “maquilla” la pestaña. Según el equipo de maquilladores del salón de belleza Moncho Moreno en Madrid, es una técnica de la que se saca doble partido. Por un lado, es ideal para las mujeres que no acostumbran a maquillarse normalmente pero quieren lucir un poco más de pestaña y por otro, para las mujeres que sí se maquillan y quieren reforzar esta parte.Es decir, esta técnica alarga, engrosa las pestañas y finaliza con un tinte negro. Desde el salón afirman que es ideal para mujeres rubias o con pestañas finas o no muy largas y todo el trabajo se hace también sobre la propia pestaña, sin usar extensiones.",
         "benef": [],
@@ -546,8 +712,9 @@
           "7C822630-6A79-4407-88B4-CBE5EBF282DC.jpg",
           "377266136_1.jpg"
         ]
-      },{
-        "id": 22,
+      },
+      {
+        "id": 51,
         "title": "Cejas - Pestañas Y Maquillaje",
         "desc": "Realizo maquillaje social o profesional para todo tipos de eventos. Técnica destinada a realzar los rasgos faciales y simultáneamente disimular los defectos para conseguir mayor armonía. El maquillaje tiene una función prácticamente terapéutica, se convierte en un recurso invaluable para salir de casa o asistir a algún evento.",
         "benef": [],
@@ -557,6 +724,36 @@
           "pexels-freestocksorg-457701.jpg"
         ]
       }
+    ]
+  },
+  "faq": {
+    "preguntas": [
+      "¿Cómo solicitar un turno?",
+      "¿Cuáles son los medios de pago disponibles?",
+      "¿Necesito usar muchos productos en mi rutina?",
+      "¿Cuántas veces al día se aplica el protector solar?",
+      "¿Cuántas veces al día se aplica el protector solar?",
+      "¿Cuántas veces debo lavar mi rostro?",
+      "¿A qué edad se deberían utilizar productos para la prevención de líneas de expresión?",
+      "¿Cómo puedo establecer una rutina de skincare?",
+      "¿Cuánto tiempo debe pasar entre la aplicación de cada producto?",
+      "¿Realmente importa la doble limpieza y cuando debo aplicarla?",
+      "¿Puedo usar solo mascarillas?",
+      "¿Es necesario utilizar tónico en una rutina?"
+    ],
+    "respuestas": [
+      "-Es muy fácil, una vez que hayas encontrado el servicio, producto o capacitación que necesitas podes contactarte a través de WhatsApp. Desde ahí vamos a concretar un turno y vamos a despejar cualquier duda o consulta que tengas.",
+      "-Aceptamos Efectivo/Transferencia y mercado pago.",
+      "-No, la piel tiene 3 necesidades básicas: LIMPIAR, HIDRATAR Y PROTEGER.",
+      "-Siempre se debe aplicar el protector solar cada 2 o 3 horas, ya que con el correr del tiempo la protección va disminuyendo y se hace indispensable volver a aplicar el producto para garantizar su efectividad.",
+      "-No podría decirse cuál es mejor ya que ambos tienen funciones específicas. No obstante, el serum, al ser un concentrado de activos de rápida absorción, no debe faltar en tus rutinas. Los aceites, por otro lado, nos ayudan a obtener una piel luminosa y nutrida.",
+      "-2 veces. En la mañana y en la noche. Si tienes la necesidad de limpiar tu rostro durante el día, puedes usar agua micelar.",
+      "-A partir de los 24 o 25 años sería una buena opción, ya que es a esta edad que los niveles de colágeno natural comienzan a disminuir.",
+      "-En primer lugar debemos entender las necesidades de nuestra piel y adquirir los productos para satisfacerlas. La rutina básica consta de limpiador, exfoliante, serum o crema hidratante y protector solar.",
+      "-Lo ideal serían de 30 a 60 segundos para garantizar la correcta absorción. Los productos más ligeros como los serums, siempre deben ir antes de las cremas.",
+      "-La doble limpieza es fundamental. Con ella nos deshacemos de los restos de maquillaje e impurezas y mantenemos nuestros poros libres de grasa y suciedad.",
+      "-No, estás son una ayuda rápida e instantánea pero no reemplazan una rutina de cuidado facial diaria.",
+      "-El tónico es importante si deseas mantener tu piel hidratada. Este, adicionalmente, cierra los poros de tu rostro y prepara la piel para recibir de mejor manera tus productos."
     ]
   }
 }
