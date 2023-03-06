@@ -1,4 +1,5 @@
 import { products } from "../assets/static/courses/data.json";
+import { NavLink } from "react-router-dom";
 import CarouselItem from "./CarouselItem";
 export const ProductCarousel = () => {
   const item = (
@@ -138,15 +139,27 @@ export const NewCarousel = () => {
         >
           {/* <!-- Carousel wrapper --> */}
           <div className="relative h-56 overflow-hidden rounded-lg md:h-[32rem] bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink">
+            {products.map((el) => (
+              <CarouselItem
+                key={el.id}
+                img={el.img}
+                desc={el.desc}
+                title={el.title}
+                benef={el.benef}
+                principiosactivos={el.principioactivo}
+                mododeuso={el.mododeuso}
+              ></CarouselItem>
+            ))}
+
             {/* <!-- Item 1 --> */}
             <div
               className="hidden duration-150 ease-linear"
               data-carousel-item="active"
             >
               <img
-                src="/src/assets/static/imgproducts/cleanse rose alpine.png"
+                src="/src/assets/static/imgproducts/alpine-rose-cleancer.png"
                 className="absolute block w-[25%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/4 hover:brightness-105 transition-all"
-                alt="..."
+                alt="alpine-rose-cleancer"
               />
               <div className="absolute block w-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 -right-1/4 mr-24">
                 <div className="flex flex-col bg-[#F5F5F5]/70 p-3 px-5 rounded-xl">
@@ -154,7 +167,7 @@ export const NewCarousel = () => {
                     ALPINE ROSES CLEANSER EMULSION
                   </p>
                   <p className=" text-lg font-semibold font-UrbanistSemibold">
-                    Detalle
+                    Limpiador suave facial
                   </p>
                   <p className=" text-slate-700 clear-left text-lg font-Urbanist">
                     Formula innovadora que produce una microemulsión y efectúa
@@ -171,21 +184,15 @@ export const NewCarousel = () => {
                     sin dejar residuos de producto. También se puede utilizar
                     para el desmaquillado de párpados y labios.
                   </p>
+                  <NavLink
+                    className=" inline-flex items-center px-12 py-1.5 mt-auto ml-auto text-center text-lg font-UrbanistMedium text-gray-100 bg-palette-SoftAuburn rounded-lg hover:bg-palette-Auburn focus:ring-3 focus:outline-none focus:ring-palette-ChampagnePink"
+                    to={`#`}
+                  >
+                    Ver Catálogo
+                  </NavLink>
                 </div>
               </div>
             </div>
-
-            {products.map((el) => (
-              <CarouselItem
-                key={el.id}
-                img={el.img}
-                desc={el.desc}
-                title={el.title}
-                benef={el.benef}
-                principiosactivos={el.principioactivo}
-                mododeuso={el.mododeuso}
-              ></CarouselItem>
-            ))}
           </div>
           {/* <!-- Slider controls --> */}
           <button
