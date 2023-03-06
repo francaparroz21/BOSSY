@@ -5,175 +5,188 @@
       "title": "Cosmetología",
       "desc": "En este curso vas a aprender a diagnosticar la piel y armar un tratamiento personalizado para cada paciente. Ya que no se puede generalizar la aplicación de los tratamientos y de los cosmecéuticos. No se requieren conocimientos previos ya que se inicia desde la cosmetología para luego avanzar hacia la cosmiatría.",
       "topics": [
-        "Pieles y anexos 1",
-        "Biotipos y fototipos cutáneos. Diagnóstico",
-        "Introducción a la química cosmética",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "-Pieles y anexos",
+        "-Biotipos y fototipos cutáneos. Diagnóstico.",
+        "-Introducción a la química cosmética.",
+        "-Introducción al masaje facial.",
+        "-Ficha cosmetológica.",
+        "-Nutrición aplicada a la estética.",
+        "-Limpieza básica.",
+        "-Limpieza profunda.",
+        "-Corrección de imperfecciones.",
+        "-Fotoprotección y prevención del cáncer de piel.",
+        "-Peeling químico.",
+        "-Peeling enzimático.",
+        "-Rosácea y acné.",
+        "-Supplements."
       ],
-      "img": "/src/assets/static/imgservices/"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "",
+      "img": ["pexels-anna-shvets-5069431.jpg", "pexels-ivan-samkov-5659013.jpg", "pexels-arina-krasnikova-6663370.jpg"]
     },
     {
       "id": 2,
       "title": "Masaje energético con cristales",
-      "desc": "Una terapia muy en uso y rescatada de otras culturas en la actualidad y de lo que quiero mostrar en el siguiente taller. En esta terapia interactuamos con minerales y piedras que al colocarlos en el lugar exacto de cada cuerpo pueden hacer vibrar determinadas partes energéticas o los chakras de nuestro cuerpo sutil, sanando así nuestro cuerpo o, simplemente energetizándolo y confiriéndole un mayor bienestar. ̈Todos somos energía ̈y los cristales como los seres humanos somos conductores de energía. Podemos potenciar elevando la frecuencia de cualquiera de nuestras terapias o técnicas integrando la vibración de los cristales.",
+      "desc": "Una terapia muy en uso y rescatada de otras culturas en la actualidad y de lo que quiero mostrar en el siguiente taller. En esta terapia interactuamos con minerales y piedras que al colocarlos en el lugar exacto de cada cuerpo pueden hacer vibrar determinadas partes energéticas o los chakras de nuestro cuerpo sutil, sanando así nuestro cuerpo o, simplemente energetizándolo y confiriéndole un mayor bienestar. ̈Todos somos energía ̈ y los cristales como los seres humanos somos conductores de energía. Podemos potenciar elevando la frecuencia de cualquiera de nuestras terapias o técnicas integrando la vibración de los cristales",
       "topics": [],
-      "img": "/src/assets/static/imgservices"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "PARA RESERVAR TU LUGAR COMUNíCATE AL WHATSAPP",
+      "img": ["pexels-anete-lusina-5240697.jpg", "pexels-ekaterina-bolovtsova-6766259.jpg", "mujer-conseguir-piedra-masaje.jpg"]
     },
     {
       "id": 3,
       "title": "Lash lifting, laminado y colorimetría",
-      "desc": "En esta capacitación aprenderás todo lo referido a lifting, laminado y colorimetría de las pestañas. Es un tratamiento profesional que levanta tus pestañas desde la raíz y las encorva haciéndolas ver más largas. Una capacitación completa que les permitirá sumar servicios a su gabinete y mejorar el desempeño profesional",
+      "desc": "En esta capacitación aprenderás todo lo referido a lifting, laminado y colorimetría de las pestañas. Es un tratamiento profesional que levanta tus pestañas desde la raíz y las curva haciéndolas ver más largas. Una capacitación completa que les permitirá sumar servicios a su gabinete y mejorar el desempeño profesional",
       "topics": [
-        "Anatomía del ojo",
-        "Estructura de la pestaña",
-        "Pestañas: ciclo de crecimiento",
-        "Lifting de pestañas",
-        "Lifting laminado",
-        "Tinte de pestañas",
-        "Procesos químicos",
-        "Seguridad e higiene",
-        "Productos y composición",
-        "Botox",
-        "Técnica paso a paso",
-        "Infecciones oculares",
-        "Errores comunes",
-        "Como corregir una mala praxis",
-        "Cuidados posteriores"
+        "-Anatomía del ojo.",
+        "-Estructura de la pestaña.",
+        "-Pestañas: ciclo de crecimiento.",
+        "-Lifting de pestañas. -Lifting laminado.",
+        "-Tinte de pestañas.",
+        "-Procesos químicos.",
+        "-Seguridad e higiene.",
+        "-Productos y composición.",
+        "-Botox.",
+        "-Técnica paso a paso.",
+        "-Infecciones oculares",
+        "-Errores comunes.",
+        "-Cómo corregir una mala praxis.",
+        "-Cuidados posteriores."
       ],
-      "img": "/src/assets/static/imgservices"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario",
+      "details": "",
+      "img": ["pexels-nataliya-vaitkevich-5128235.jpg", "Lash lifting pestañas.png", "eyelash-Lifting-before-after-2.webp"]
     },
     {
       "id": 4,
       "title": "  Diseño, perfilado y laminado con Henna",
       "desc": "En esta capacitación aprenderán un servicio personalizado de depilación que consiste en darle la forma correcta a las cejas respetando su curvatura. Se tienen en cuenta varios factores como su forma natural, tipo y cantidad de pelo, forma de ojos y de rostro",
       "topics": [
-        "¿Qué es diseño y perfilado de cejas?",
-        "Arquitectura de cejas / Mapeo facial",
-        "Proporciones y Medidas",
-        "¿Cuál es la diferencia entre diseño de cejas para epilación y para micropigmentación?",
-        "Técnica correcta de depilación",
-        "Diferencia entre depilar y epilar",
-        "Diseño de cejas y posibles terminaciones",
-        "Tipos de cejas y formato de rostros",
-        "Anatomía de la ceja",
-        "Materiales",
-        "Piel humana",
-        "Biotipos / Fototipos",
-        "Componentes químicos / Ph",
-        "Composición del pelo",
-        "Tinte de cejas",
-        "Henna",
-        "Brow lamination / laminado de cejas",
-        "Paso a paso",
-        "Finalización",
-        "Contraindicaciones",
-        "Bioseguridad",
-        "Marketing / como atraer clientes?",
-        "Etapas de venta"
+        "-¿Qué es diseño y perfilado de cejas?",
+        "-Arquitectura de cejas / Mapeo facial.",
+        "-Proporciones y Medidas.",
+        "-Cual es la diferencia entre diseño de cejas para epilación y para micropigmentación?",
+        "-Técnica correcta de depilación.",
+        "-Diferencia entre depilar y epilar.",
+        "-Diseño de cejas y posibles terminaciones.",
+        "-Tipos de cejas y formato de rostros.",
+        "-Anatomía de la ceja.",
+        "-Materiales. -Piel humana.",
+        "-Biotipos / Fototipos.",
+        "-Componentes químicos / Ph.",
+        "-Composición del pelo.",
+        "-Tinte de cejas.",
+        "-Henna.",
+        "-Brow lamination / laminado de cejas.",
+        "-Paso a paso.",
+        "-Finalización.",
+        "-Contraindicaciones.",
+        "-Bioseguridad.",
+        "-Marketing / cómo atraer clientes?",
+        "-Etapas de venta."
       ],
-      "img": "/src/assets/static/imgservices"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "",
+      "img": ["mujer-perfilado-henna.png", "Perfilado con henna.jpeg", "1591970972.jpg"]
     },
     {
       "id": 5,
       "title": "Masterclass acné y extracciones ",
-      "desc": "Esta capacitación está orientado a la profundización sobre esta afección tan frecuentemente consultada. Vamos aprender a como abordar pacientes con acné, que herramientas tienen a disposición y que recomendaciones brindarles",
+      "desc": "Esta capacitación está orientada a la profundización sobre esta afección tan frecuentemente consultada. Vamos a aprender a cómo abordar pacientes con acné, qué herramientas tienen a disposición y que recomendaciones brindarles.",
       "topics": [
-        "Acné, cómo se desarrolla esta afección",
-        "Características / Grado / Lesiones elementales",
-        "Abordaje cosmiátrico del acné",
-        "Productos recomendados",
-        "Vehículos y principios activos",
-        "Apoyo domiciliario",
-        "Recomendaciones",
-        "Elaboración de diversos protocolos con la integración de todo lo visto"
+        "Acné, cómo se desarrolla esta afección.",
+        "Características / Grado / Lesiones elementales.",
+        "Abordaje cosmiátrico del acné.",
+        "Productos recomendados.",
+        "Vehículos y principios activos.",
+        "Apoyo domiciliario.",
+        "Recomendaciones.",
+        "Elaboración de diversos protocolos con la integración de todo lo visto."
       ],
-      "img": "/src/assets/static/imgservices"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "",
+      "img": ["pexels-anna-nekrashevich-6476077.jpg", "pexels-anna-nekrashevich-6475988.jpg", "/src/assets/static/imgservices/pexels-anna-nekrashevich-6476083.jpg"]
     },
     {
       "id": 6,
       "title": "Filler Rellenos Tópicos",
       "desc": "En este seminario aprenderás todo sobre la piel, productos y protocolos para pre y post tratamientos de rellenos faciales.",
       "topics": [
-        "Que son los tratamientos Filler",
-        "Como realizar un protocolo efecto relleno de arrugas",
-        "Protocolo Shock Filler previo a un evento especial",
-        "Preparación de la piel para rellenos médicos (inyecciones de ácido hialurónico)",
-        "Protocolos demostrativos paso a paso",
-        "Ampollas de tratamientos Shock de IDRAET - Demostración de su uso",
-        "Productos específicos para apoyo domiciliario"
+        "Qué son los tratamientos Filler.",
+        "Cómo realizar un protocolo efecto relleno de arrugas.",
+        "Protocolo Shock Filler previo a un evento especial.",
+        "Preparación de la piel para rellenos médicos (inyecciones de ácido hialurónico) -Protocolos demostrativos paso a paso.",
+        "Ampollas de tratamientos Shock de Idraet",
+        "Demostración de su uso.",
+        "Productos específicos para apoyo domiciliario."
       ],
-      "img": "/src/assets/static/imgservices"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "",
+      "img": ["pexels-cottonbro-studio-7582560.jpg", "pexels-cottonbro-studio-7581590.jpg", "pexels-gustavo-fring-3985311.jpg"]
     },
     {
       "id": 7,
       "title": "Vademecum IDRAET",
-      "desc": "El objetivo de este taller es conocer los productos de la línea de IDRAET de apoyo domiciliario. Profundizar sobre sus indicaciones y de qué manera recomendarlos para obtener los mejores resultados en los tratamientos.",
+      "desc": "El objetivo de este taller es conocer los productos de la línea de Idraet de apoyo domiciliario. Profundizar sobre sus indicaciones y de qué manera recomendarlos para obtener los mejores resultados en los tratamientos.",
       "topics": [
-        "Presentación de toda la línea de productos",
-        "La importancia de la higiene y como recomendar las opciones para cada paciente",
-        "Productos de tratamientos específicos",
-        "Aplicación de los productos, indicaciones y precauciones de uso",
-        "Diagnóstico",
-        "Tips de marketing"
+        "Presentación de toda la línea de productos.",
+        "La importancia de la higiene y como recomendar las opciones para cada paciente.",
+        "Productos de tratamientos específicos.",
+        "Aplicación de los productos, indicaciones y precauciones de uso.",
+        "Diagnóstico.",
+        "Tips de marketing."
       ],
-      "img": "/src/assets/static/imgservices"
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "",
+      "img": ["idraet-logo.png", "group-of-products-idraet-rose.png", "vitamin-c-hyaluronic-lotion-vitamin-c-serum.png"]
     },
     {
       "id": 8,
       "title": "Masajes Sedativos y Descontracturantes",
       "desc": "En este curso le brindaremos herramientas a los profesionales para el abordaje de tratamientos descontracturantes y sedativos en gabinete. Aprenderemos a estimular la acción muscular y a su vez, mejorar la circulación linfática y venosa, promoviendo la eliminación de desechos o toxinas del organismo. Además, es el mejor método para aliviar la fatiga muscular a causa de estrés, ejercicio excesivo o cansancio.",
       "topics": [
-        "Sistema óseo muscular",
+        "Sistema óseo muscular.",
         "Conceptos básicos de masaje",
-        "Beneficios",
-        "Indicaciones y contraindicaciones",
-        "Técnicas de masaje sedativo",
-        "Maniobras descontracturantes específicas",
-        "Abordaje de las contracturas",
-        "Mantenimiento de la salud de los músculos",
-        "Técnicas complementarias: Maderoterapia, pindas y piedras calientes",
-        "Fangoterapia y Aromaterapia"
-      ],
-      "img": "/src/assets/static/imgservices"
+        "Beneficios.",
+        "Indicaciones y contraindicaciones.",
+        "Técnicas de masaje sedativo.",
+        "Maniobras descontracturantes específicas.",
+        "Abordaje de las contracturas.",
+        "Mantenimiento de la salud de los músculos.",
+        "Técnicas complementarias: Maderoterapia, pindas y piedras calientes.",
+        "Fangoterapia y aromaterapia."
+        ],
+      "certificate":"Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details":"PARA RESERVAR TU LUGAR COMUNíCATE AL WHATSAPP",
+      "img": ["pexels-karolina-grabowska-6629604.jpg", "pexels-andrea-piacquadio-3757952 (1).jpg", "pexels-koolshooters-6628604.jpg"]
     },
     {
       "id": 9,
       "title": "Masterclass PEELING",
-      "desc": "El objetivo de esta capacitación es que puedan adquirir conocimientos y destrezas en el manejo de las diferentes técnicas de peeling, tanto mecánico como químico para su correcta utilización en rejuvenecimiento facial, tratamiento de manchas (Melasma), acné, arrugas, cicatrices, estrías, etc",
+      "desc": "El objetivo de esta capacitación es que puedan adquirir conocimientos y destrezas en el manejo de las diferentes técnicas de peeling, tanto mecánico como químico para su correcta utilización en rejuvenecimiento facial, tratamiento de manchas(Melasma), acné, arrugas, cicatrices, estrías, etc.",
       "topics": [
-        "Diferentes tipos de peeling",
-        "Peeling mecánico / biológico / químico",
-        "Cuando utiliza cada método para obtener los mejores beneficios cosméticos",
-        "Características",
-        "Indicaciones / Contraindicaciones",
-        "Peeling anti-age",
-        "Peeling despigmentante",
-        "Peeling cicatrices y secuelas de acné",
-        "Opciones de protocolo"
-      ],
-      "img": "/src/assets/static/imgservices"
+        "Diferentes tipos de peeling.",
+        "Peeling mecánico / biológico / químico.",
+        "Cuando utiliza cada método para obtener los mejores beneficios cosméticos.",
+        "Características.",
+        "Indicaciones / Contraindicaciones.",
+        "Peeling antiage.",
+        "Peeling despigmentante.",
+        "Peeling cicatrices y secuelas de acné.",
+        "Opciones de protocolo."
+        ],
+
+      "certificate":"Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details":"",
+      "img": ["peeling-quimico.jpg", "peeling-chimique-bio-phyts.jpg", "despues_peeling.jpg"]
     }
   ],
   "products": [
     {
-      "id": 10,
-      "title": "ALPINE ROSES CLEANSER EMULSION",
-      "desc": "Limpiador suave facial. Fórmula súper innovadora que produce una microemulsión y efectúa una limpieza profunda, pero sin irritar la piel. Limpia y desmaquilla. No altera el equilibrio natural de la piel. Ideal para pieles sensibles o delicadas.",
-      "img": "cleanse rose alpine.png",
-      "benef": [],
-      "mododeuso": "Aplicar una pequeña cantidad de producto en rostro, cuello y escote. Masajear unos segundos y luego enjuagar con algodón o esponjas embebidas en agua. El enjuague debe ser completo sin dejar residuos de producto. También se puede utilizar para el desmaquillado de párpados y labios.",
-      "principioactivo": ""
-    },
-    {
       "id": 11,
       "title": "EXFOLIANTING SCRUB - GEL EXFOLIANTE SUAVE PURIFICANTE",
       "desc": "",
-      "img": "gel exfoliante.png",
+      "img": "exfoliating-scrub.png",
       "benef": [
         "Elimina impurezas y células córneas de la superficie de la piel,",
         "Afina la piel y suaviza la superficie,",
@@ -187,7 +200,7 @@
       "id": 12,
       "title": "Idraet Pro Reti C Scrub Exfoliante Facial Corporal Vitamin C",
       "desc": "",
-      "img": "pro reti c exfoliante.png",
+      "img": "pro-reti-c-scrub.png",
       "benef": [
         "Exfoliante facial y corporal,",
         "Remueve células de la superficie, impurezas y contaminantes,",
@@ -216,7 +229,7 @@
       "id": 14,
       "title": "PROTECTOR SOLAR",
       "desc": "",
-      "img": "protector solar (1).png",
+      "img": "protector-solar.png",
       "benef": [
         "De rápida absorción,",
         "Alta protección que te ayuda a prevenir las quemaduras solares,",
@@ -229,7 +242,7 @@
       "id": 15,
       "title": "PROTECTIVE TONER - LOCIÓN TÓNICA CALMANTE",
       "desc": "",
-      "img": "locion tonica.png",
+      "img": "protective-toner.png",
       "benef": [
         "Aporta minerales de propiedades desensibilizantes, que contribuyen a calmar y suavizar las pieles más sensibles y reactivas,",
         "Rica en agua termal,",
@@ -242,7 +255,7 @@
       "id": 16,
       "title": "HYALURONIC B5 BIO-OSMOTIC LOTION",
       "desc": "",
-      "img": "hyaluronic b5 lotion.png",
+      "img": "hyaluronic-b5-lotion.png",
       "benef": [
         "Loción osmoprotectora que evita la deshidratación a lo largo del día y protege la piel de los factores externos,",
         "Confort para pieles deshidratadas y delicadas,"
@@ -254,7 +267,7 @@
       "id": 17,
       "title": "THERMAL NEW LIGHT - CREMA HIDRATANTE LIGERA",
       "desc": "",
-      "img": "thermal new light.png",
+      "img": "thermal-new-light.png",
       "benef": [
         "Penetra instantáneamente, restableciendo el film hidrolipídico protector de la piel y aportando minerales de propiedades calmantes y desensibilizantes,",
         "Calma y suaviza las pieles más sensibles y maltratadas,",
@@ -267,7 +280,7 @@
       "id": 18,
       "title": "STRESS OUT ANTI-AGE SHOCK MASK - RELAJANTE Y REDENSIFICANTE ",
       "desc": "",
-      "img": "stress out antiage.png",
+      "img": "anti-age-mask.png",
       "benef": [
         "Máscara efecto shock Relajante y Redensificante,",
         "Efecto regenerador cutáneo y estimulante de mecanismos naturales de reparación,",
@@ -284,7 +297,7 @@
       "id": 19,
       "title": "VITAMIN C SERUM - SERUM REVITALIZANTE ",
       "desc": "",
-      "img": "vitamin c serumm.png",
+      "img": "vitamin-c-serum.png",
       "benef": [
         "Protege la piel de la acción de los radicales libres producidos por el sol, la contaminación o el humo del tabaco,",
         "Ayuda a mejorar el tono de la piel y la producción de colágeno,",
@@ -297,7 +310,7 @@
       "id": 20,
       "title": "RICH PLASMA EYE CONTOUR - CONTORNO DE OJOS - REJUVENECEDOR ",
       "desc": "",
-      "img": "rich plasma.png",
+      "img": "rich-plasma.png",
       "benef": [
         "Detiene los signos de envejecimiento y promueve la reparación del daño a nivel del ADN Celular,",
         "Protege la delicada piel de los párpados,",
@@ -312,7 +325,7 @@
       "id": 21,
       "title": "PRO HYALURON - SEERUM PARA RELLENO DE ARRUGAS ",
       "desc": "",
-      "img": "pro hyaluron.png",
+      "img": "pro-hyaluronic.png",
       "benef": [
         "Elimina arrugas finas y minimiza arrugas profundas,",
         "Reduce un 15,5% la profundidad de arrugas en sólo 3 horas,",
@@ -325,7 +338,7 @@
       "id": 22,
       "title": "VITAMIN C & HYALURONIC - Anti-Age SHOCK MASK",
       "desc": "",
-      "img": "vitamin c hyaluronic mask.png",
+      "img": "vitamin-c-hyaluronic-mask.png",
       "benef": [
         "Máscara Anti-Age de potente efecto revitalizante y relleno de arrugas,",
         "Estimula la síntesis de colágeno,",
@@ -340,13 +353,13 @@
       "id": 23,
       "title": "SERUM HIALURÓNICO",
       "desc": "",
-      "img": "serum hialuronico.png",
+      "img": "vitamin-c-serum.png",
       "benef": [
         "Este serum tiene la habilidad de retener la máxima cantidad de agua que la epidermis pueda absorber,",
         "Dejará mejor preparada la piel para resistir la formación de arrugas y deterioros,",
         "Incrementa la elasticidad en la piel,",
         "Disminuye el crecimiento y la apariencia de arrugas y reduce el tamaño de los poros,"
-        ],
+      ],
       "mododeuso": "Aplique 2-3 gotas sobre la piel limpia de cara, cuello y escote, con suaves movimientos circulares, por la mañana o la noche, antes del cuidado hidratante o anti-age diario.",
       "principioactivo": "0,2% ÁCIDO HIALURÓNICO, 4% CAESOLPINIA SPINOSA"
     },
@@ -354,11 +367,11 @@
       "id": 24,
       "title": "ALPINE ROSES MASK - MÁSCARA DE CÉLULAS MADRE DE ROSAS ALPINAS 6 CÁPSULAS",
       "desc": "",
-      "img": "rosas  alpinas mask.png",
+      "img": "alpine-rose-mask.png",
       "benef": [
         "Revitaliza y regenera la piel mejorando su elasticidad y suavidad,",
         "Hidrata y humecta, protegiendo la piel de factores externos y daños por deshidratación,"
-        ],
+      ],
       "mododeuso": "Aplicar sobre el rostro el contenido completo de la cápsula sobre el rostro, dejar actuar de 10 a 15 minutos, retirar con abundante agua o con ayuda de una esponja facial.",
       "principioactivo": "Formulada con Células Madre de Rosas Alpinas, actúan regenerando y reparando la piel, y Aceite de Pepitas de Damasco, de potente acción antioxidante."
     },
@@ -366,12 +379,12 @@
       "id": 25,
       "title": "VITAMIN C EYES - SERUM CONTORNO DE OJOS",
       "desc": "",
-      "img": "vitamina c ojos.png",
+      "img": "vitamin-c-eyes.png",
       "benef": [
         "Ilumina la mirada y aclara las ojeras,",
         "Hidrata y mejora la apariencia de las finas arrugas,",
         "Aumenta la elasticidad de la piel,"
-        ],
+      ],
       "mododeuso": "Desplazar el aplicador masajeador con suavidad por el contorno de los ojos, previamente limpios y tonificados, de forma lenta hasta total absorción.Luego colocar el producto de tratamiento habitual y/o maquillaje. Se puede utilizar por la mañana y por la noche.",
       "principioactivo": ""
     },
@@ -379,7 +392,7 @@
       "id": 26,
       "title": "CBD CREAM - CREMA ANTIAGE FACIAL",
       "desc": "Crema facial antiage y antioxidante. Previene el envejecimiento prematuro y protege del estrés ambiental. Suave textura emoliente que deja la piel sedosa y luminosa. Para todo tipo de piel.",
-      "img": "cbd cream.png",
+      "img": "cbd-cream-facial.png",
       "benef": [],
       "mododeuso": "",
       "principioactivo": "Con CBD, Vitamina E y Té Rojo"
@@ -388,7 +401,7 @@
       "id": 27,
       "title": "CBD SERUM - SERUM ANTIAGE FACIAL",
       "desc": "Serum facial antiage y antioxidante. Equilibra la hidratación y mantiene la piel saludable. Textura ligera de rápida absorción deja la piel suave y resplandeciente. Para todo tipo de piel.",
-      "img": "cbd-serum.png",
+      "img": "cbd-serum-facial.png",
       "benef": [],
       "mododeuso": "",
       "principioactivo": "Con CBD, Vitamina E y Té Rojo"
@@ -397,11 +410,11 @@
       "id": 28,
       "title": "ALPINE ROSES SCRUB - EXFOLIANTE SUAVE FACIAL",
       "desc": "",
-      "img": "alpine roses scrub.png",
+      "img": "alpine-rose-facial-scrub.png",
       "benef": [
         "Exfoliante facial que remueve gentilmente las células de la superficie, impurezas y contaminantes,",
         "Deja la piel suave y aterciopelada,"
-        ],
+      ],
       "mododeuso": "Aplicar una pequeña cantidad de producto en rostro, cuello y escote. Masajear suavemente focalizándose en las zonas donde la piel está más gruesa y luego enjuagar con abundante agua. Se recomienda usar como máximo 1 vez por semana.",
       "principioactivo": "Células Madre de Rosa Alpina, Nanoesferas de Vitamina A y E, Aceite de pepitas de Damasco, Agua de Rosas Blancas"
     },
@@ -409,12 +422,12 @@
       "id": 29,
       "title": "VITAMIN C CLEANSER - GEL DE LIMPIEZA RENOVADOR ",
       "desc": "",
-      "img": "vitamin c cleanser.png",
+      "img": "vitamin-c-cleancer.png",
       "benef": [
         "Remueve impurezas, sebo y sudor de la superficie de la piel sin dañar su equilibrio natural,",
         "Con liposomas de Vitamina C deja la piel suave y luminosa,",
         "Mejora la textura y elasticidad, suaviza e hidrata profundamente,"
-        ],
+      ],
       "mododeuso": "Extender una pequeña cantidad de gel sobre las manos húmedas, formar una suave espuma y aplicar en el rostro y cuerpo con masajes circulares. Aclarar con agua templada.",
       "principioactivo": "Liposomas de Vitamina C. Antioxidante, participa de la síntesis de colágeno, regenerador, cicatrizante, antiinflamatorio, de acción fotoprotectora y despigmentante."
     }
