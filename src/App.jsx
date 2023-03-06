@@ -22,8 +22,9 @@ function App() {
           <Route path="/servicios/:servicioId" element={<Services />} />
           <Route path="/productos" element={<NewCarousel />} />
           <Route path="/capacitaciones" element={<Courses />} />
+          <Route path="/capacitaciones/:capacitacionesId" element={<Courses />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/tips" element={<Tips />} />
+          <Route path="/tips" element={<Tips />} /> 
         </Routes>
         <Footer />
       </div>
