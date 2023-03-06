@@ -17,7 +17,7 @@ const FAQ = () => {
               <FAQItem pregunta={pregunta} respuesta={faq.respuestas[i]} index={i} key={i} />
           ))}
         </div>
-        <div className="basis 1/3">
+        <div className="basis 1/3 flex flex-col justify-center">
           <img src="/src/assets/static/Rectangle 64.png" alt="" />
           <img src="/src/assets/static/Rectangle 66.png" alt="" />
           <img src="/src/assets/static/Rectangle 67.png" alt="" />
