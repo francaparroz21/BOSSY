@@ -23,5 +23,12 @@
   }
 }
 .elipse{
-  clip-path: path('M 0 1500 L 0,405 A 11,7 0,0,1 1280,405 L 1280 1500 z');
+  clip-path: path('M 0 1500 L 0 405 A 11 7 0 0 1 1280 405 L 1280 1500 z');
+}
+.elipseabout{
+  clip-path: path("M 0 540 L 0 250 A 4 4 0 0 1 350 250 L 350 540 z");
+}
+
+.bg-sky-img{
+  background-image: url(/src/assets/static/imgpage/Rectangle\ 55.png);
 }
