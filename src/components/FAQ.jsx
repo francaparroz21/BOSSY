@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <div className="container grid">
       <span className="w-full sticky font-Urbanist text-3xl grow p-2 indent-5 bg-palette-OrchidPink text-slate-700">
-        Facial Y Corporal
+        Preguntas Frecuentes
       </span>
       <div className="flex">
         <div

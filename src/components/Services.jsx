@@ -1,7 +1,7 @@
-import { services } from "../assets/static/courses/data.json";
+import { useState } from "react";
 import { useParams, NavLink } from "react-router-dom";
+import { services } from "../assets/static/courses/data.json";
 import ItemDetail from "./ItemDetail";
-import { useEffect, useState } from "react";
 
 const Services = () => {
   const { servicioId } = useParams();

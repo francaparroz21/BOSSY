@@ -1,7 +1,4 @@
-import React from "react";
-
 const Tips = () => {
-  
   return (
     <section className="container grid">
       <span className="w-full sticky font-Urbanist text-3xl grow p-2 mb-5 indent-5 bg-palette-OrchidPink text-slate-700">
@@ -38,20 +35,18 @@ const Tips = () => {
         <div className="flex flex-row items-center text-left">
           <div className="relative px-5">
             <p className="absolute -right-10 text-5xl font-UrbanistSemibold z-20">
-              Piel Normal
+              Piel Mixta
             </p>
             <p className="mt-14 text-xl font-Urbanist">
-              ★ La piel normal debe limpiarse cuidadosamente tanto en las mañana
-              como antes de ir a dormir. Si bien utilizar productos suaves no es
-              completamente necesario, puedes usar limpiadores y desmaquillantes
-              en formato crema. <br />
-              ★ Si tienes un tipo de piel normal, es importante que uses un
-              exfoliante suave dos veces a la semana para eliminar impurezas y
-              residuos de la piel, de esta manera mantendrás tu piel suave y
-              saludable. <br />★ Utiliza jabones de fórmula suave para proteger
-              la capa superficial de la piel y no olvides usar serums y cremas
-              con ingredientes humectantes y antioxidantes, además de tu SPF
-              favorito.
+              ★ Utiliza cremas hidratantes específicas para el tipo de piel
+              mixta, preferiblemente con vitamina C para prevenir la flacidez.
+              Evita las cremas con base de aceite. <br />
+              ★ Evita tocar mucho tu rostro para prevenir la transferencia de
+              grasa, bacterias y gérmenes que podrían contribuir en la aparición
+              de acné y puntos negros. <br />
+              ★ Utiliza bases mate o libre de aceites para evitar que tu rostro
+              se vea muy brillante. El polvo translúcido es una excelente opción
+              para aplicar en la zona T. <br />
             </p>
           </div>
           <img
@@ -70,20 +65,17 @@ const Tips = () => {
 
           <div className="relative px-5">
             <p className="absolute -left-10 text-5xl font-UrbanistSemibold">
-              Piel Normal
+              Piel Seca
             </p>
             <p className="mt-14 text-xl font-Urbanist">
-              ★ La piel normal debe limpiarse cuidadosamente tanto en las mañana
-              como antes de ir a dormir. Si bien utilizar productos suaves no es
-              completamente necesario, puedes usar limpiadores y desmaquillantes
-              en formato crema. <br />
-              ★ Si tienes un tipo de piel normal, es importante que uses un
-              exfoliante suave dos veces a la semana para eliminar impurezas y
-              residuos de la piel, de esta manera mantendrás tu piel suave y
-              saludable. <br />★ Utiliza jabones de fórmula suave para proteger
-              la capa superficial de la piel y no olvides usar serums y cremas
-              con ingredientes humectantes y antioxidantes, además de tu SPF
-              favorito.
+              ★ La humectación diaria debe ser tu máxima prioridad si tienes la
+              piel seca. No pueden faltar en tus productos: ácido hialurónico,
+              ceramidas, aloe vera y avena coloidal. <br />
+              ★ La exfoliación será una de tus principales aliadas. Al remover
+              el tejido muerto promover la formación de células nuevas, destapar
+              los poros y evitar manchas y resequedad. <br />★ Utiliza un
+              protector solar humectante, bebe abundante agua, reduce tu
+              exposición solar y limpia tu rostro con agua templada.
             </p>
           </div>
         </div>
@@ -91,20 +83,18 @@ const Tips = () => {
         <div className="flex flex-row items-center text-left">
           <div className="relative px-5">
             <p className="absolute -right-10 text-5xl font-UrbanistSemibold z-20">
-              Piel Normal
+              Piel Madura
             </p>
             <p className="mt-14 text-xl font-Urbanist">
-              ★ La piel normal debe limpiarse cuidadosamente tanto en las mañana
-              como antes de ir a dormir. Si bien utilizar productos suaves no es
-              completamente necesario, puedes usar limpiadores y desmaquillantes
-              en formato crema. <br />
-              ★ Si tienes un tipo de piel normal, es importante que uses un
-              exfoliante suave dos veces a la semana para eliminar impurezas y
-              residuos de la piel, de esta manera mantendrás tu piel suave y
-              saludable. <br />★ Utiliza jabones de fórmula suave para proteger
-              la capa superficial de la piel y no olvides usar serums y cremas
-              con ingredientes humectantes y antioxidantes, además de tu SPF
-              favorito.
+              ★ Además de la aplicación, la forma en la que aplicamos nuestros
+              productos es muy importante. Masajea tu piel gentilmente al usar
+              tus productos para mejorar la absorción de nutrientes. <br />
+              ★ La piel madura requiere de una mayor capacidad regeneradora. Por
+              lo tanto, ingredientes como ácido hialurónico, vitamina C y
+              retinol serán tus grandes aliados. <br />
+              ★ No te olvides de tus manos y tu cuello. Al estar tan expuestos
+              como el rostro, es importante consentirlos con cremas humectantes
+              diariamente para mantener su brillo, suavidad y firmeza. <br />
             </p>
           </div>
           <img
@@ -123,20 +113,17 @@ const Tips = () => {
 
           <div className="relative px-5">
             <p className="absolute -left-10 text-5xl font-UrbanistSemibold">
-              Piel Normal
+              Piel Grasa
             </p>
             <p className="mt-14 text-xl font-Urbanist">
-              ★ La piel normal debe limpiarse cuidadosamente tanto en las mañana
-              como antes de ir a dormir. Si bien utilizar productos suaves no es
-              completamente necesario, puedes usar limpiadores y desmaquillantes
-              en formato crema. <br />
-              ★ Si tienes un tipo de piel normal, es importante que uses un
-              exfoliante suave dos veces a la semana para eliminar impurezas y
-              residuos de la piel, de esta manera mantendrás tu piel suave y
-              saludable. <br />★ Utiliza jabones de fórmula suave para proteger
-              la capa superficial de la piel y no olvides usar serums y cremas
-              con ingredientes humectantes y antioxidantes, además de tu SPF
-              favorito.
+              ★ La limpieza diurna y nocturna son fundamentales para reducir el
+              nivel de sebo en la piel. No las dejes pasar. <br />
+              ★ Los serums y cremas hidratantes no pueden faltar en tu rutina
+              diurna. Sin embargo, si vas a aplicar una crema hidratante,
+              procura que sea solo para la noche. <br />
+              ★ Exfoliar tu piel al menos un par de veces a la semana. De esta
+              manera eliminarás las células muertas y mantendrás tus poros
+              cerrados. <br />
             </p>
           </div>
         </div>
@@ -171,12 +158,14 @@ const Tips = () => {
           </div>
           <div className="flex items-center row-start-1 row-end-3 py-14 bg-gradient-to-b from-palette-ChampagnePink/50 to-palette-OrchidPink/50 border-2 border-palette-OldRose rounded-sm">
             <p className="text-stone-800 font-Cremona text-lg text-left px-6">
-              ATRAIGO TODA LA RIQUEZA QUE NECESITO Y DESEO CON EL MISMO ESFUERZO.
+              ATRAIGO TODA LA RIQUEZA QUE NECESITO Y DESEO CON EL MISMO
+              ESFUERZO.
             </p>
           </div>
           <div className="flex items-center row-start-1 row-end-4 py-18 bg-gradient-to-b from-palette-ChampagnePink/50 to-palette-OrchidPink/50 border-2 border-palette-OldRose rounded-sm">
             <p className="text-stone-800 font-Cremona text-lg text-left px-6">
-              ESTOY ALINEADA CON EL UNIVERSO Y TENGO EL PODER DE VIVIR LA VIDA DE MIS SUEÑOS.
+              ESTOY ALINEADA CON EL UNIVERSO Y TENGO EL PODER DE VIVIR LA VIDA
+              DE MIS SUEÑOS.
             </p>
           </div>
           <div className="flex items-center row-start-4 row-end-6 py-30 bg-gradient-to-b from-palette-ChampagnePink/50 to-palette-OrchidPink/50 border-2 border-palette-OldRose rounded-sm">
@@ -201,7 +190,8 @@ const Tips = () => {
           </div>
           <div className="flex items-center row-start-5 row-end-7 py-24 bg-gradient-to-b from-palette-ChampagnePink/50 to-palette-OrchidPink/50 border-2 border-palette-OldRose rounded-sm">
             <p className="text-stone-800 font-Cremona text-lg text-left px-6">
-              CREER EN TU TALENTO, EN TU POTENCIAL Y RESPETAR TU ESFUERZO ES DE LAS MEJORES FORMAS DE AMARTE.
+              CREER EN TU TALENTO, EN TU POTENCIAL Y RESPETAR TU ESFUERZO ES DE
+              LAS MEJORES FORMAS DE AMARTE.
             </p>
           </div>
           <div className="flex items-center row-start-6 row-end-auto py-14 bg-gradient-to-b from-palette-ChampagnePink/50 to-palette-OrchidPink/50 border-2 border-palette-OldRose rounded-sm">

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Presentation = () => {
   return (
     <div className="container flex flex-col gap-4 ">
