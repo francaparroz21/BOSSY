@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App container w-[98vw]">
+      <div className="App container w-[97vw]">
         <Navbar />
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Presentation />} />
