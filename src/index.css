@@ -6,6 +6,9 @@
   .elipse{
     clip-path: path('M 0 1500 L 0 405 A 11 7 0 0 1 1250 405 L 1250 1500 z');
   }
+  .elipse-mobile{
+    clip-path: path('M 0 1500 L 0 125 A 9 6 0 0 1 365 125 L 365 1500 z');
+  }
   .elipse-small{
     clip-path: path('M 0 1500 L 0 405 A 11 7 0 0 1 1250 405 L 1250 1500 z');
   }
