@@ -26,7 +26,7 @@ module.exports = {
         }
       },
       boxShadow: {
-        't-xl': ' 0px -2px 22px 0px rgba(0,0,0,0.3)'
+        't-xl': '0px -2px 22px 0px rgba(0,0,0,0.3)'
       },
       gridTemplateColumns: {
         special: 'repeat(auto-fit, minmax(300px, 1fr))'
