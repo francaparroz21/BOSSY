@@ -119,12 +119,12 @@ const Navbar = () => {
         >
           <img
             src='/src/assets/static/imgpage/bossyLogo.png'
-            className='w-[5rem] md:w-[10rem]'
+            className='w-[5rem] md:w-[7rem] lg:w-[10rem]'
             alt='bossyLogo'
           />
         </NavLink>
 
-        <div className='fixed w-full left-0 bottom-0 p-3 shadow-t-xl bg-palette-OrchidPink md:hidden z-50' id='navbar-mobile'>
+        <div className='fixed w-full left-0 bottom-0 p-3 shadow-t-xl bg-palette-OrchidPink lg:hidden z-50' id='navbar-mobile'>
           <ul className='flex justify-around'>
             {svgLinks.map((el, i) => (
               <li key={i}>
@@ -146,7 +146,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className='hidden w-full md:block left-0 top-0' id='navbar-desktop'>
+        <div className='hidden w-full lg:block left-0 top-0' id='navbar-desktop'>
           <ul className='flex flex-col p-4 gap-6 border border-gray-700 rounded-lg md:flex md:flex-row md:justify-evenly md:border-0 md:bg-inherit'>
             {links.map((el, i) => (
               <li key={i}>
