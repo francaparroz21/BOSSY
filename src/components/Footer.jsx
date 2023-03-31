@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className='container w-full py-16 pb-24 mg:bottom-4 md:pt-14 md:pb-38 md: lg:py-1 lg:z-50 isolate bg-palette-ChampagnePink'>
+    <footer className=' w-full py-16 pb-24 md:pt-14 md:pb-38 lg:py-1 lg:z-50 isolate bg-palette-ChampagnePink'>
       <div className='flex justify-center'>
         <div className='flex justify-center items-center md:ml-0 lg:ml-96 flex-col '>
           <p className='text-center text-sm text-palette-Auburn p-0 md:text-xl font-Urbanist'>
@@ -9,7 +9,7 @@ const Footer = () => {
           <div className='flex justify-center gap-4'>
             <a href='#' className='flex justify-center'>
               <svg
-                className='w-[22px] sm:w-[44px] fill-palette-Auburn hover:fill-palette-SoftAuburn transition-all'
+                className='w-[28px] md:w-[33px] lg:w-[44px] fill-palette-Auburn hover:fill-palette-SoftAuburn transition-all'
                 viewBox='0 0 24 24'
                 fill='none'
                 xmlns='http://www.w3.org/2000/svg'
@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
             <a href='#' className='flex justify-center'>
               <svg
-                className='w-[22px] sm:w-[44px] fill-palette-Auburn hover:fill-palette-SoftAuburn transition-all'
+                className='w-[28px] md:w-[33px] lg:w-[44px] fill-palette-Auburn hover:fill-palette-SoftAuburn transition-all'
                 viewBox='0 0 24.00 24.00'
                 fill='none'
                 stroke='#0f0c0c'
