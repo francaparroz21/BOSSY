@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 function App () {
   return (
     <BrowserRouter>
-      <div className='App container relative w-[97vw] overflow-y-hidden'>
+      <div className='App w-full relative '>
         <Navbar />
         <Routes>
           <Route path='/' element={<Presentation />} />

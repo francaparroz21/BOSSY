@@ -46,9 +46,7 @@
 
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  place-items: center;
+  display: grid;
   min-width: 320px;
   min-height: 100vh;
   background-color: #F5F5F5;
