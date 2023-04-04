@@ -1,4 +1,4 @@
-import { faq } from '../assets/static/courses/data.json'
+import { faq } from '../assets/courses/data.json'
 import FAQItem from './Elements/FAQItem'
 
 const Faq = () => {
@@ -23,9 +23,9 @@ const Faq = () => {
           ))}
         </div>
         <div className='basis-1/3 flex flex-col justify-center'>
-          <img src='/src/assets/static/imgpage/Rectangle 64.png' alt='' />
-          <img src='/src/assets/static/imgpage/Rectangle 66.png' alt='' />
-          <img src='/src/assets/static/imgpage/Rectangle 67.png' alt='' />
+          <img src='/assets/imgpage/Rectangle 64.png' alt='' />
+          <img src='/assets/imgpage/Rectangle 66.png' alt='' />
+          <img src='/assets/imgpage/Rectangle 67.png' alt='' />
         </div>
       </div>
     </div>

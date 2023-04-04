@@ -51,7 +51,7 @@ const Tips = () => {
           </div>
           <img
             className='border-[18px] rounded-2xl aspect-auto pt-10 mx-5 bg-gradient-to-t from-palette-ChampagnePink/60  border-white hover:brightness-105 transition-all'
-            src='/src/assets/static/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (4).png'
+            src='/assets/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (4).png'
             alt='belleza-cuidado-piel-mujer-joven-perfecta-mostrando-piel-facial-nutrida-brillante-sonriendo'
           />
         </div>
@@ -59,7 +59,7 @@ const Tips = () => {
         <div className='flex flex-row items-center text-left'>
           <img
             className='border-[18px] rounded-2xl aspect-auto pt-10 mx-5 bg-gradient-to-t from-palette-ChampagnePink/60  border-white hover:brightness-105 transition-all'
-            src='/src/assets/static/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (1).png'
+            src='/assets/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (1).png'
             alt='belleza-cuidado-piel-mujer-joven-perfecta-mostrando-piel-facial-nutrida-brillante-sonriendo'
           />
 
@@ -99,7 +99,7 @@ const Tips = () => {
           </div>
           <img
             className='border-[18px] rounded-2xl aspect-auto pt-10 mx-5 bg-gradient-to-t from-palette-ChampagnePink/60  border-white hover:brightness-105 transition-all'
-            src='/src/assets/static/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (2).png'
+            src='/assets/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (2).png'
             alt='belleza-cuidado-piel-mujer-joven-perfecta-mostrando-piel-facial-nutrida-brillante-sonriendo'
           />
         </div>
@@ -107,7 +107,7 @@ const Tips = () => {
         <div className='flex flex-row items-center text-left'>
           <img
             className='border-[18px] rounded-2xl aspect-auto pt-10 mx-5 bg-gradient-to-t from-palette-ChampagnePink/60  border-white hover:brightness-105 transition-all'
-            src='/src/assets/static/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (3).png'
+            src='/assets/imgpage/belleza-cuidado-piel-mujer-joven-perfecta-maquillaje-nude-natural-hombros-desnudos-mostrando-piel-facial-nutrida-brillante-sonriendo-complacida-mirandose-espejo-despues-ducha-fondo-estudio-blanco 1 (3).png'
             alt='belleza-cuidado-piel-mujer-joven-perfecta-mostrando-piel-facial-nutrida-brillante-sonriendo'
           />
 

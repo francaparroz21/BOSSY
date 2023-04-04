@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { services } from "../assets/static/courses/data.json"
+import { services } from "../assets/courses/data.json"
 import ItemDetail from "./ItemDetail"
 import Headers from "./Elements/Headers"
 import Card from "./Elements/Card"
@@ -10,7 +10,7 @@ const Services = () => {
   const SECONDSERVICECLASS = services.CPYM
 
   return (
-    <div className='container flex flex-col'>
+    <div className='w-full flex flex-col'>
       {servicioId ? (
         <>
           <ItemDetail servicioId={servicioId} />
@@ -18,7 +18,7 @@ const Services = () => {
       ) : (
         <>
           <Headers title={" Facial y Corporal"}></Headers>
-          <div className='container grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 '>
+          <div className='w-full grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 '>
             {FIRSTSERVICECLASS.map((service) => (
               <Card
                 key={service.id}
@@ -29,7 +29,7 @@ const Services = () => {
             ))}
           </div>
           <Headers title={"Cejas - Pestañas y Maquillaje"}></Headers>
-          <div className='container grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 '>
+          <div className='w-full grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 '>
             {SECONDSERVICECLASS.map((service) => (
               <Card
                 id={service.id}

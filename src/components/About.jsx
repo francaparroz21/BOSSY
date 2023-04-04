@@ -4,7 +4,7 @@ const About = () => {
       <div className='flex relative justify-center md:basis-1/3 md:h-[33rem] overflow-hidden'>
         <img
           className=' xl:elipseAbout md:absolute w-[10rem] md:w-[18rem] xl:w-[22rem] md:-top-10 md:object-cover hover:brightness-105 transition-all'
-          src='/src/assets/static/imgpage/4ED63C86-96F4-4105-9AB9-C0A86FBA9FD2.jpg'
+          src='/assets/imgpage/4ED63C86-96F4-4105-9AB9-C0A86FBA9FD2.jpg'
           alt='imagen-de-valentina-bossy'
         />
       </div>
@@ -25,12 +25,12 @@ const About = () => {
       </div>
       <img
         className='absolute w-[30%] md:w-[20%] xl:w-[13%] top-[10%] left-[55%] md:left-[70%] xl:left-[23%] md:top-[55%] xl:top-[60%] z-0 hover:brightness-105 transition-all'
-        src='/src/assets/static/imgpage/liliumm 1.png'
+        src='/assets/imgpage/liliumm 1.png'
         alt=''
       />
       <img
         className='absolute w-[30%] top-[0%] left-[12%] flipY md:hidden z-0 hover:brightness-105 transition-all'
-        src='/src/assets/static/imgpage/liliumm 1.png'
+        src='/assets/imgpage/liliumm 1.png'
         alt=''
       />
     </div>

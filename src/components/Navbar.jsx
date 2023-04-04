@@ -98,7 +98,7 @@ const Navbar = () => {
           <span className='text-2xl text-palette-Auburn font-bold font-Cremona'>
             B
             <img
-              src='/src/assets/static/imgpage/Bossy2_Mesa de trabajo mobile.png'
+              src='/assets/imgpage/Bossy2_Mesa de trabajo mobile.png'
               className='w-[2rem] inline'
               alt='Logo de Bossy Skincare'
             />
@@ -111,7 +111,7 @@ const Navbar = () => {
         >
           <img
             className='w-[5rem] md:w-[6rem] lg:w-[8rem] xl:w-[10rem]'
-            src='/src/assets/static/imgpage/bossyLogo.png'
+            src='/assets/imgpage/bossyLogo.png'
             alt='Logo de Bossy skincare'
           />
         </NavLink>

@@ -1,4 +1,4 @@
-import { courses } from "../assets/static/courses/data.json"
+import { courses } from "../assets/courses/data.json"
 import { useEffect, useState } from "react"
 import Headers from "./Elements/Headers"
 import Button from "./Elements/Button"
@@ -23,7 +23,7 @@ const CourseDetail = ({ capacitacionesId }) => {
           {item.img.map((el) => (
             <img
               className='rounded-2xl object-center object-cover grow max-h-[9rem] w-[10rem] md:w-[13rem] md:max-h-[12rem] lg:w-[16rem] lg:max-h-15rem] xl:w-[23rem] xl:max-h-[21rem] hover:brightness-105 transition-all'
-              src={`/src/assets/static/imgservices/${el}`}
+              src={`/assets/imgservices/${el}`}
               alt={`${el}`}
               key={el}
             />

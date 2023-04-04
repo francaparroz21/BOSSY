@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { products } from '../assets/static/courses/data.json'
+import { products } from '../assets/courses/data.json'
 import CarouselItem from './CarouselItem'
 import Headers from './Elements/Headers'
 

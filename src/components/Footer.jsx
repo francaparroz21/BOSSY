@@ -56,7 +56,7 @@ const Footer = () => {
           <a className='w-fit' href='#'>
             <img
               className='w-[106px] md:w-[120px] lg:w-[200px]'
-              src='/src/assets/static/imgpage/Bossy2_Mesa de trabajo 1 1.png'
+              src='/assets/imgpage/Bossy2_Mesa de trabajo 1 1.png'
               alt=''
             />
           </a>

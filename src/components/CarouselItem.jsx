@@ -15,7 +15,7 @@ const CarouselItem = ({
     <>
       <div className='hidden duration-150 ease-linear' data-carousel-item>
         <img
-          src={`/src/assets/static/imgproducts/${img}`}
+          src={`/assets/imgproducts/${img}`}
           className='absolute block w-[25%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/4 hover:brightness-105 transition-all'
           alt={`${img}`}
         />

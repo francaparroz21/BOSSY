@@ -10,17 +10,17 @@ const Presentation = () => {
         <div className='block relative w-full z-20'>
           <img
             className='absolute h-auto w-[70%] -left-[30%] bottom-0 md:w-[50%] md:-left-[15%] lg:w-[46.2%] lg:-left-[12%] lg:-top-52 xl:bottom-[0%] z-10'
-            src='/src/assets/static/imgpage/joven-hermosa-modelo-posando 1.png'
+            src='/assets/imgpage/joven-hermosa-modelo-posando 1.png'
             alt='image description'
           />
           <img
             className='absolute h-auto w-[80%] left-[10%] bottom-0 md:w-[55%] md:left-[15%] lg:w-[50%] lg:left-[15%] lg:-top-60 xl:bottom-[0%] z-20'
-            src='/src/assets/static/imgpage/disparo-cabeza-atractiva-chica-raza-mixta 1.png'
+            src='/assets/imgpage/disparo-cabeza-atractiva-chica-raza-mixta 1.png'
             alt='image description'
           />
           <img
             className='absolute h-auto w-[85%] -right-[22%] bottom-0 md:w-[55%] md:-right-[5%] lg:w-[50%] lg:-right-[1%] lg:-top-60 xl:bottom-[0%] z-10'
-            src='/src/assets/static/imgpage/modelos-caucasicos-asiaticos-primer-plano-posando-juntos 1.png'
+            src='/assets/imgpage/modelos-caucasicos-asiaticos-primer-plano-posando-juntos 1.png'
             alt='image description'
           />
         </div>
@@ -39,7 +39,7 @@ const Presentation = () => {
         <span className='flex py-12 lg:py-18 justify-center z-20'>
           <img
             className='w-[45%] md:w-1/4 lg:w-[31%]'
-            src='/src/assets/static/imgpage/Bossy2_Mesa de trabajo 1 1.png'
+            src='/src/assets/imgpage/Bossy2_Mesa de trabajo 1 1.png'
             alt=''
           />
         </span>

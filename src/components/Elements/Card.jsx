@@ -7,8 +7,8 @@ const Card = ({ img, title, direction }) => {
         <a href='#' className=''>
           <img
             className='rounded-t-2xl object-center object-cover w-[13rem] h-[10rem] md:w-[14rem] md:h-[11rem] lg:w-[16rem] lg:h-[15rem] md:mx-auto  '
-            src={`/src/assets/static/imgservices/${img}`}
-            alt=''
+            src={`/assets/imgservices/${img}`}
+            alt={`${img}`}
           />
         </a>
         <a href='#' className='block mt-auto'>
