@@ -1,5 +1,5 @@
 import { faq } from '../assets/static/courses/data.json'
-import FAQItem from './FAQItem'
+import FAQItem from './Elements/FAQItem'
 
 const Faq = () => {
   return (

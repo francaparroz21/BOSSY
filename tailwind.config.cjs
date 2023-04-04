@@ -29,7 +29,7 @@ module.exports = {
         't-xl': '0px -2px 22px 0px rgba(0,0,0,0.3)'
       },
       gridTemplateColumns: {
-        special: 'repeat(auto-fit, minmax(300px, 1fr))'
+        special: 'repeat(auto-fit, minmax(180px, 1fr))'
       }
     }
   },

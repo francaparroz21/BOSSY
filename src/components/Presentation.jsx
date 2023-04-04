@@ -1,6 +1,6 @@
 const Presentation = () => {
   return (
-    <div className='container flex flex-col gap-4 overflow-x-hidden '>
+    <div className='container flex flex-col gap-4 mx-auto overflow-x-hidden '>
       <div className='flex flex-col xl:elipse xl:bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink'>
         <div className=' pb-64 pt-24 md:pt-32 md:pb-80 lg:pt-56 xl:pt-44 xl:pb-72 z-20'>
           <h1 className='text-center text-xl px-10 md:text-2xl md:px-20 lg:px-40 xl:px-64 lg:text-5xl font-Cremona text-stone-700'>

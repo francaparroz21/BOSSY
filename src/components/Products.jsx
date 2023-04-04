@@ -1,13 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import { products } from '../assets/static/courses/data.json'
 import CarouselItem from './CarouselItem'
+import Headers from './Elements/Headers'
 
 export const NewCarousel = () => {
   return (
     <div className='container flex flex-col gap-10'>
-      <span className='w-full sticky font-Urbanist text-3xl grow p-2 indent-5 bg-palette-OrchidPink text-slate-700'>
-        Productos
-      </span>
+      <Headers title={'Productos'}/>
       <div className='flex flex-col align-middle mb-10'>
         <div
           id='animation-carousel'
