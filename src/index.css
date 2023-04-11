@@ -4,7 +4,7 @@
 
 @layer utilities{
   .elipse{
-    clip-path: path('M 0 1900 L 0 500 A 9 7 0 0 1 1240 500 L 1240 1900 z');
+    clip-path: path('M 0 1900 L 0 500 A 9 7 0 0 1 1270 500 L 1270 1900 z');
   }
   .special-path{
     position: absolute;

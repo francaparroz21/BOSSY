@@ -10,10 +10,10 @@ import Courses from './components/Courses'
 import Services from './components/Services'
 import Footer from './components/Footer'
 
-function App () {
+function App() {
   return (
     <BrowserRouter>
-      <div className='App w-full relative '>
+      <div className='App w-full relative overflow-hidden'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Presentation />} />
