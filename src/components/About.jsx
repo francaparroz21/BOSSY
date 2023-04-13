@@ -1,15 +1,15 @@
 const About = () => {
   return (
-    <div className='relative mb-6 flex flex-col md:flex-row md:gap-5 justify-around items-center  bg-gradient-to-b from-palette-OrchidPink to-palette-ChampagnePink'>
+    <div className='relative mb-6 px-3 flex flex-col md:flex-row lg:gap-5 justify-around items-center  bg-gradient-to-b from-palette-OrchidPink to-palette-ChampagnePink'>
       <div className='flex relative justify-center md:basis-1/3 md:h-[33rem] overflow-hidden'>
         <img
-          className=' xl:elipseAbout md:absolute w-[10rem] md:w-[18rem] xl:w-[22rem] md:-top-10 md:object-cover hover:brightness-105 transition-all'
+          className='elipseAbout-small md:elipseAbout-medium lg:elipseAbout-large xl:elipseAbout md:absolute w-[10rem] md:w-[18rem] xl:w-[22rem] md:top-5 lg:-top-5 xl:-top-10 md:object-cover hover:brightness-105 transition-all'
           src='/assets/imgpage/4ED63C86-96F4-4105-9AB9-C0A86FBA9FD2.jpg'
           alt='imagen-de-valentina-bossy'
         />
       </div>
       <div className='flex md:basis-2/3 self-center z-20'>
-        <p className=' text-base p-8 lg:px-5 lg:text-xl xl:text-2xl font-Urbanist text-palette-SoftAuburn'>
+        <p className=' text-base p-8 lg:px-5 lg:text-xl xl:text-2xl font-Urbanist text-slate-700'>
           Mi nombre es Valentina Bossy, creadora de BOSSY SKINCARE. Soy
           maquilladora, masajista profesional, cosmetóloga, cosmiatra holística,
           dermatocosmíatra, brow & lash artist. <br /> Mi pasión es el mundo de
@@ -24,12 +24,12 @@ const About = () => {
         </p>
       </div>
       <img
-        className='absolute w-[30%] md:w-[20%] xl:w-[13%] top-[10%] left-[55%] md:left-[70%] xl:left-[23%] md:top-[55%] xl:top-[60%] z-0 hover:brightness-105 transition-all'
+        className='absolute w-[30%] md:w-[15%] xl:w-[13%] top-[10%] left-[55%] md:left-[23%] md:top-[55%] xl:top-[60%] z-10 hover:brightness-105 transition-all'
         src='/assets/imgpage/liliumm 1.png'
         alt=''
       />
       <img
-        className='absolute w-[30%] top-[0%] left-[12%] flipY md:hidden z-0 hover:brightness-105 transition-all'
+        className='absolute w-[30%] top-[0%] left-[12%] md:w-[15%] xl:w-[13%] md:left-[0%] md:top-[50%] xl:top-[60%] z-10 hover:brightness-105 transition-all flipY'
         src='/assets/imgpage/liliumm 1.png'
         alt=''
       />

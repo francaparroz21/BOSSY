@@ -4,23 +4,30 @@
 
 @layer utilities{
   .elipse{
-    clip-path: path('M 0 1900 L 0 500 A 9 7 0 0 1 1270 500 L 1270 1900 z');
+    clip-path: path('M 0 1900 L 0 500 A 9 7 0 0 1 1270 500 L 1270 1900 z')
   }
   .special-path{
-    position: absolute;
+    position: absolute
   }
   .elipse-mobile{
-    clip-path: path('M 0 1500 L 0 125 A 9 6 0 0 1 100% 125 L 365 1500 z');
+    clip-path: path('M 0 1500 L 0 125 A 9 6 0 0 1 100% 125 L 365 1500 z')
   }
   .elipse-small{
-    clip-path: path('M 0 1500 L 0 405 A 11 7 0 0 1 1250 405 L 1250 1500 z');
+    clip-path: path('M 0 1500 L 0 405 A 11 7 0 0 1 1250 405 L 1250 1500 z')
   }
   .elipseAbout{
-    clip-path: path("M 0 540 L 0 250 A 4 4 0 0 1 350 250 L 350 540 z");
+    clip-path: path('M 0 540 L 0 250 A 4 4 0 0 1 350 250 L 350 540 z')
+  }
+  .elipseAbout-large{
+    clip-path: path("M 0 460 L 0 220 A 4 4 0 0 1 280 220 L 280 460 z")
+  }
+  .elipseAbout-medium{
+    clip-path: path("M 0 395 L 0 190 A 4 4 0 0 1 253 190 L 253 395 z")
   }
   .elipseAbout-small{
-    clip-path: path("M 1 250 L 0 130 A 4 4 0 0 1 156 130 L 156 250 z");
+    clip-path: path("M 1 250 L 0 130 A 4 4 0 0 1 156 130 L 156 250 z")
   }
+  
   .flipY{
     transform: rotate3d(0,1,0,180deg);
   }

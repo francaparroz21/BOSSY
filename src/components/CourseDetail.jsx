@@ -30,7 +30,7 @@ const CourseDetail = ({ capacitacionesId }) => {
           ))}
         </div>
       ) : (
-        ""
+        <></>
       )}
       {Check(item.desc) ? (
         <>
@@ -39,24 +39,26 @@ const CourseDetail = ({ capacitacionesId }) => {
           </p>
         </>
       ) : (
-        ""
+        <></>
       )}
       {Check(item.topics) ? (
-        <div>
+        <>
           <p className='mx-4 md:mx-8 lg:mx-16 font-Urbanist text-sm md:text-base lg:text-xl'>
             Temáticas:
           </p>
-          {item.topics.map((topic) => (
-            <p
-              key={topic[0]}
-              className=' mx-4 md:mx-8 lg:mx-16 font-Urbanist text-sm md:text-base lg:text-xl'
-            >
-              {topic}
-            </p>
-          ))}
-        </div>
+          <div>
+            {item.topics.map((topic, i) => (
+              <p
+                key={i}
+                className=' mx-4 md:mx-8 lg:mx-16 font-Urbanist text-sm md:text-base lg:text-xl'
+              >
+                {topic}
+              </p>
+            ))}
+          </div>
+        </>
       ) : (
-        ""
+        <></>
       )}
       {Check(item.certificate) ? (
         <>
@@ -65,7 +67,7 @@ const CourseDetail = ({ capacitacionesId }) => {
           </p>
         </>
       ) : (
-        ""
+        <></>
       )}
       {Check(item.details) ? (
         <>
@@ -74,9 +76,9 @@ const CourseDetail = ({ capacitacionesId }) => {
           </p>
         </>
       ) : (
-        ""
+        <></>
       )}
-      <Button info={false}/>
+      <Button info={false} />
     </div>
   )
 }
