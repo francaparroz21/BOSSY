@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className=' w-full py-16 pb-24 md:pt-14 md:pb-38 lg:py-1 lg:z-50 isolate bg-palette-ChampagnePink'>
+    <footer className=' w-full py-14 pb-24 md:pt-14 md:pb-[7rem] lg:py-7 lg:z-50 isolate bg-palette-ChampagnePink'>
       <div className='flex justify-center'>
         <div className='flex justify-center items-center md:ml-0 lg:ml-96 flex-col '>
           <p className='text-center text-sm text-palette-Auburn p-0 md:text-xl font-Urbanist'>
@@ -51,7 +51,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-        </div> 
+        </div>
         <div className='mg:ml-10 lg:ml-52'>
           <a className='w-fit' href='#'>
             <img
