@@ -7,16 +7,16 @@ const FAQItem = ({ pregunta, respuesta, index, isOpen, onClick }) => {
   return (
     <>
       <button
-        className='flex items-center justify-between w-full grow p-2 text-left text-xl text-stone-700 rounded-lg font-Urbanist bg-palette-SoftPeach border-opacity-40 focus:ring-palette-SoftPeach focus:outline-none focus:bg-palette-Peach dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800'
+        className='flex items-center justify-between w-full grow p-2 md:px-5 md:py-1 text-left text-xl text-slate-700 rounded-lg font-Urbanist bg-palette-SoftPeach border-opacity-40 focus:ring-palette-SoftPeach focus:outline-none focus:bg-palette-Peach'
         onClick={onClick}
       >
-        <p className='text-sm md:text-base'>{pregunta}</p>
+        <p className='text-sm md:text-base lg:text-lg'>{pregunta}</p>
         <svg
           viewBox='0 0 24 24'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
           data-accordion-icon
-          className={`w-6 h-6 shrink-0 fill-gray-700 transition-all ` + (isOpen ? 'rotate-45' : 'rotate-90')}
+          className={`w-6 h-6 shrink-0 fill-slate-700 transition-all ` + (isOpen ? 'rotate-45' : 'rotate-90')}
         >
           <g id='SVGRepo_bgCarrier' strokeWidth='0' />
           <g
@@ -46,8 +46,8 @@ const FAQItem = ({ pregunta, respuesta, index, isOpen, onClick }) => {
       <div
         className={isOpen ? '' : 'hidden'}
       >
-        <div className='px-2 md:p-2 mb-3 font-Urbanist bg-inherit rounded-sm border-opacity-5 border-palette-SoftPeach dark:border-gray-700 dark:bg-gray-900'>
-          <p className=' text-xs md:text-sm lg:text-base font-UrbanistMedium text-gray-500 dark:text-gray-400'>
+        <div className='px-2 md:p-2 mb-3 font-Urbanist bg-inherit rounded-sm border-opacity-5 border-palette-SoftPeach'>
+          <p className=' text-sm lg:text-base font-UrbanistMedium text-slate-500 '>
             {respuesta}
           </p>
         </div>
