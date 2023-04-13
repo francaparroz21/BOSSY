@@ -22,7 +22,11 @@
       ],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
       "details": "",
-      "img": ["pexels-anna-shvets-5069431.jpg", "pexels-ivan-samkov-5659013.jpg", "pexels-arina-krasnikova-6663370.jpg"]
+      "img": [
+        "pexels-anna-shvets-5069431.jpg",
+        "pexels-ivan-samkov-5659013.jpg",
+        "pexels-arina-krasnikova-6663370.jpg"
+      ]
     },
     {
       "id": 2,
@@ -31,7 +35,11 @@
       "topics": [],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
       "details": "PARA RESERVAR TU LUGAR COMUNíCATE AL WHATSAPP",
-      "img": ["pexels-anete-lusina-5240697.jpg", "pexels-ekaterina-bolovtsova-6766259.jpg", "mujer-conseguir-piedra-masaje.jpg"]
+      "img": [
+        "pexels-anete-lusina-5240697.jpg",
+        "pexels-ekaterina-bolovtsova-6766259.jpg",
+        "mujer-conseguir-piedra-masaje.jpg"
+      ]
     },
     {
       "id": 3,
@@ -55,11 +63,15 @@
       ],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario",
       "details": "",
-      "img": ["pexels-nataliya-vaitkevich-5128235.jpg", "Lash lifting pestañas.png", "eyelash-Lifting-before-after-2.webp"]
+      "img": [
+        "pexels-nataliya-vaitkevich-5128235.jpg",
+        "Lash lifting pestañas.png",
+        "eyelash-Lifting-before-after-2.webp"
+      ]
     },
     {
       "id": 4,
-      "title": "  Diseño, perfilado y laminado con Henna",
+      "title": "Diseño, perfilado y laminado con Henna",
       "desc": "En esta capacitación aprenderán un servicio personalizado de depilación que consiste en darle la forma correcta a las cejas respetando su curvatura. Se tienen en cuenta varios factores como su forma natural, tipo y cantidad de pelo, forma de ojos y de rostro",
       "topics": [
         "-¿Qué es diseño y perfilado de cejas?",
@@ -87,11 +99,15 @@
       ],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
       "details": "",
-      "img": ["mujer-perfilado-henna.png", "Perfilado con henna.jpeg", "1591970972.jpg"]
+      "img": [
+        "mujer-perfilado-henna.png",
+        "Perfilado con henna.jpeg",
+        "1591970972.jpg"
+      ]
     },
     {
       "id": 5,
-      "title": "Masterclass acné y extracciones ",
+      "title": "Masterclass acné y extracciones",
       "desc": "Esta capacitación está orientada a la profundización sobre esta afección tan frecuentemente consultada. Vamos a aprender a cómo abordar pacientes con acné, qué herramientas tienen a disposición y que recomendaciones brindarles.",
       "topics": [
         "Acné, cómo se desarrolla esta afección.",
@@ -105,7 +121,11 @@
       ],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
       "details": "",
-      "img": ["pexels-anna-nekrashevich-6476077.jpg", "pexels-anna-nekrashevich-6475988.jpg", "/src/assets/static/imgservices/pexels-anna-nekrashevich-6476083.jpg"]
+      "img": [
+        "pexels-anna-nekrashevich-6476077.jpg",
+        "pexels-anna-nekrashevich-6475988.jpg",
+        "pexels-anna-nekrashevich-6476083.jpg"
+      ]
     },
     {
       "id": 6,
@@ -122,7 +142,11 @@
       ],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
       "details": "",
-      "img": ["pexels-cottonbro-studio-7582560.jpg", "pexels-cottonbro-studio-7581590.jpg", "pexels-gustavo-fring-3985311.jpg"]
+      "img": [
+        "pexels-cottonbro-studio-7582560.jpg",
+        "pexels-cottonbro-studio-7581590.jpg",
+        "pexels-gustavo-fring-3985311.jpg"
+      ]
     },
     {
       "id": 7,
@@ -138,7 +162,11 @@
       ],
       "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
       "details": "",
-      "img": ["idraet-logo.png", "group-of-products-idraet-rose.png", "vitamin-c-hyaluronic-lotion-vitamin-c-serum.png"]
+      "img": [
+        "idraet-logo.png",
+        "group-of-products-idraet-rose.png",
+        "vitamin-c-hyaluronic-lotion-vitamin-c-serum.png"
+      ]
     },
     {
       "id": 8,
@@ -155,10 +183,14 @@
         "Mantenimiento de la salud de los músculos.",
         "Técnicas complementarias: Maderoterapia, pindas y piedras calientes.",
         "Fangoterapia y aromaterapia."
-        ],
-      "certificate":"Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
-      "details":"PARA RESERVAR TU LUGAR COMUNíCATE AL WHATSAPP",
-      "img": ["pexels-karolina-grabowska-6629604.jpg", "pexels-andrea-piacquadio-3757952 (1).jpg", "pexels-koolshooters-6628604.jpg"]
+      ],
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "PARA RESERVAR TU LUGAR COMUNíCATE AL WHATSAPP",
+      "img": [
+        "pexels-karolina-grabowska-6629604.jpg",
+        "pexels-andrea-piacquadio-3757952 (1).jpg",
+        "pexels-koolshooters-6628604.jpg"
+      ]
     },
     {
       "id": 9,
@@ -174,11 +206,15 @@
         "Peeling despigmentante.",
         "Peeling cicatrices y secuelas de acné.",
         "Opciones de protocolo."
-        ],
+      ],
 
-      "certificate":"Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
-      "details":"",
-      "img": ["peeling-quimico.jpg", "peeling-chimique-bio-phyts.jpg", "despues_peeling.jpg"]
+      "certificate": "Se entrega Certificación. Clases grabadas. Soporte de aula virtual, apuntes y material complementario.",
+      "details": "",
+      "img": [
+        "peeling-quimico.jpg",
+        "peeling-chimique-bio-phyts.jpg",
+        "despues_peeling.jpg"
+      ]
     }
   ],
   "products": [
@@ -269,8 +305,7 @@
       "desc": "",
       "img": "thermal-new-light.png",
       "benef": [
-        "Penetra instantáneamente, restableciendo el film hidrolipídico protector de la piel y aportando minerales de propiedades calmantes y desensibilizantes,",
-        "Calma y suaviza las pieles más sensibles y maltratadas,",
+        "Restablece el film hidrolipídico protector de la piel y aportando minerales de propiedades calmantes y desensibilizantes,",
         "Estimula la función metabólica celular y refuerza la cohesión celular,"
       ],
       "mododeuso": "Colocar una pequeña cantidad de producto y masajear hasta su total absorción. Se puede utilizar para realizar masajes faciales o como producto final.",
@@ -282,7 +317,6 @@
       "desc": "",
       "img": "anti-age-mask.png",
       "benef": [
-        "Máscara efecto shock Relajante y Redensificante,",
         "Efecto regenerador cutáneo y estimulante de mecanismos naturales de reparación,",
         "Efecto antioxidante y protector frente a los factores externos, las inclemencias del clima y el estrés ambiental,",
         "Mejora la función de barrera favoreciendo la hidratación natural de la piel,",
@@ -290,7 +324,7 @@
         "Mejora las arrugas y eliminando los finos pliegues e irregularidades de la piel,",
         "Mejora la textura y reduce el tamaño de los poros por su acción seborreguladora,"
       ],
-      "mododeuso": "Desplegar la máscara y aplicarla con cuidado sobre la piel limpia del rostro. Dejar actuar de 15 a 20 min. Retirar la máscara e incorporar con suaves tactos el producto. No es necesario enjuagar.",
+      "mododeuso": "Desplegar la máscara y aplicarla con cuidado sobre la piel limpia del rostro. Dejar actuar de 15 a 20 min. Retirar la máscara e incorporar con suaves tactos el producto.",
       "principioactivo": ""
     },
     {
@@ -755,18 +789,18 @@
       "¿Es necesario utilizar tónico en una rutina?"
     ],
     "respuestas": [
-      "-Es muy fácil, una vez que hayas encontrado el servicio, producto o capacitación que necesitas podes contactarte a través de WhatsApp. Desde ahí vamos a concretar un turno y vamos a despejar cualquier duda o consulta que tengas.",
-      "-Aceptamos Efectivo/Transferencia y mercado pago.",
-      "-No, la piel tiene 3 necesidades básicas: LIMPIAR, HIDRATAR Y PROTEGER.",
-      "-Siempre se debe aplicar el protector solar cada 2 o 3 horas, ya que con el correr del tiempo la protección va disminuyendo y se hace indispensable volver a aplicar el producto para garantizar su efectividad.",
-      "-No podría decirse cuál es mejor ya que ambos tienen funciones específicas. No obstante, el serum, al ser un concentrado de activos de rápida absorción, no debe faltar en tus rutinas. Los aceites, por otro lado, nos ayudan a obtener una piel luminosa y nutrida.",
-      "-2 veces. En la mañana y en la noche. Si tienes la necesidad de limpiar tu rostro durante el día, puedes usar agua micelar.",
-      "-A partir de los 24 o 25 años sería una buena opción, ya que es a esta edad que los niveles de colágeno natural comienzan a disminuir.",
-      "-En primer lugar debemos entender las necesidades de nuestra piel y adquirir los productos para satisfacerlas. La rutina básica consta de limpiador, exfoliante, serum o crema hidratante y protector solar.",
-      "-Lo ideal serían de 30 a 60 segundos para garantizar la correcta absorción. Los productos más ligeros como los serums, siempre deben ir antes de las cremas.",
-      "-La doble limpieza es fundamental. Con ella nos deshacemos de los restos de maquillaje e impurezas y mantenemos nuestros poros libres de grasa y suciedad.",
-      "-No, estás son una ayuda rápida e instantánea pero no reemplazan una rutina de cuidado facial diaria.",
-      "-El tónico es importante si deseas mantener tu piel hidratada. Este, adicionalmente, cierra los poros de tu rostro y prepara la piel para recibir de mejor manera tus productos."
+      "Es muy fácil, una vez que hayas encontrado el servicio, producto o capacitación que necesitas podes contactarte a través de WhatsApp. Desde ahí vamos a concretar un turno y vamos a despejar cualquier duda o consulta que tengas.",
+      "Aceptamos Efectivo/Transferencia y mercado pago.",
+      "No, la piel tiene 3 necesidades básicas: LIMPIAR, HIDRATAR Y PROTEGER.",
+      "Siempre se debe aplicar el protector solar cada 2 o 3 horas, ya que con el correr del tiempo la protección va disminuyendo y se hace indispensable volver a aplicar el producto para garantizar su efectividad.",
+      "No podría decirse cuál es mejor ya que ambos tienen funciones específicas. No obstante, el serum, al ser un concentrado de activos de rápida absorción, no debe faltar en tus rutinas. Los aceites, por otro lado, nos ayudan a obtener una piel luminosa y nutrida.",
+      "2 veces. En la mañana y en la noche. Si tienes la necesidad de limpiar tu rostro durante el día, puedes usar agua micelar.",
+      "A partir de los 24 o 25 años sería una buena opción, ya que es a esta edad que los niveles de colágeno natural comienzan a disminuir.",
+      "En primer lugar debemos entender las necesidades de nuestra piel y adquirir los productos para satisfacerlas. La rutina básica consta de limpiador, exfoliante, serum o crema hidratante y protector solar.",
+      "Lo ideal serían de 30 a 60 segundos para garantizar la correcta absorción. Los productos más ligeros como los serums, siempre deben ir antes de las cremas.",
+      "La doble limpieza es fundamental. Con ella nos deshacemos de los restos de maquillaje e impurezas y mantenemos nuestros poros libres de grasa y suciedad.",
+      "No, estás son una ayuda rápida e instantánea pero no reemplazan una rutina de cuidado facial diaria.",
+      "El tónico es importante si deseas mantener tu piel hidratada. Este, adicionalmente, cierra los poros de tu rostro y prepara la piel para recibir de mejor manera tus productos."
     ]
   }
 }
