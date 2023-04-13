@@ -7,10 +7,10 @@ const FAQItem = ({ pregunta, respuesta, index, isOpen, onClick }) => {
   return (
     <>
       <button
-        className='flex items-center justify-between w-full grow p-2 md:px-5 md:py-1 text-left text-xl text-slate-700 rounded-lg font-Urbanist bg-palette-SoftPeach border-opacity-40 focus:ring-palette-SoftPeach focus:outline-none focus:bg-palette-Peach'
+        className='flex items-center justify-between gap-3 p-3 md:p-3 xl:p-4 text-left text-lg text-slate-700 rounded-lg font-Urbanist bg-palette-SoftPeach border-opacity-40 focus:ring-palette-SoftPeach focus:outline-none focus:bg-palette-Peach'
         onClick={onClick}
       >
-        <p className='text-sm md:text-base lg:text-lg'>{pregunta}</p>
+        <p className='text-sm md:text-base lg:text-md xl:text-lg'>{pregunta}</p>
         <svg
           viewBox='0 0 24 24'
           fill='none'

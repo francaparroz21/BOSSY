@@ -9,11 +9,11 @@ const Faq = () => {
     setActiveIndex(index === activeIndex ? -1 : index)
   }
   return (
-    <section className='w-full grid'>
+    <section className='w-full grid gap-3 md:gap-0'>
       <Headers title={'Preguntas Frecuentes'} />
       <div className='flex'>
         <div
-          className='basis-2/3 flex flex-col gap-3 grow p-6 md:p-5 justify-evenly transition-transform'>
+          className='basis-2/3 flex flex-col gap-3 grow px-3 pb-3 md:p-5 justify-evenly transition-transform'>
           {faq.preguntas.map((pregunta, i) => (
             <FAQItem
               index={i}
