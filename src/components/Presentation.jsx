@@ -1,12 +1,10 @@
 const Presentation = () => {
   return (
-    <div className='container flex flex-col gap-4 mx-auto overflow-x-hidden '>
+    <div className='w-full flex flex-col gap-4 mb-4 overflow-x-hidden rounded-3xl bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink '>
       <svg
-        className='absolute -top-[13rem] sm:top-10 md:top-14 lg:top-32 xl:hidden xl:opacity-0 left-0 right-0 z-0'
+        className='absolute w-full h-full hidden xl:opacity-0 left-0 right-0 z-0'
         id='visual'
-        viewBox='0 280 1240 1600'
-        width='auto'
-        height='auto'
+        viewBox='0 100 1240 1600'
       >
         <defs>
           <clipPath id='my-clip-path'>
@@ -24,36 +22,35 @@ const Presentation = () => {
         <rect
           clipPath='url(#my-clip-path)'
           fill='url(#gradient)'
-          width='1240'
-          height='4000'
-          className=''
+
+          className='absolute w-full h-[100vh]'
         />
       </svg>
-      <div className='flex flex-col xl:elipse xl:bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink'>
-        <div className=' pb-64 pt-24 md:pt-32 md:pb-80 lg:pt-56 xl:pt-44 xl:pb-72 z-20'>
-          <h1 className='text-center text-xl px-10 md:text-2xl md:px-20 lg:px-40 xl:px-64 lg:text-5xl font-Cremona text-stone-700'>
+      <div className='flex flex-col xl:bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink'>
+        <div className=' pb-56 pt-16 sm:pb-64 sm:pt-20 md:pt-20 md:pb-80 lg:pt-32 lg:pb-96 xl:pt-44 z-20'>
+          <h1 className='text-center px-5 md:px-10 lg:px-40 xl:px-64 text-xl sm:text-2xl md:text-3xl lg:text-5xl font-Cremona text-stone-700'>
             TE DAMOS LA BIENVENIDA A BOSSY SKINCARE
           </h1>
         </div>
-        <div className='block relative w-full z-20'>
+        <div className='block relative w-full z-20 shadow-xl'>
           <img
-            className='absolute h-auto w-[60%] -left-[25%] bottom-0 sm:w-[50%] sm:-left-[15%] lg:w-[46.2%] lg:-left-[12%] lg:-top-[13rem] xl:bottom-[0%] z-10'
+            className='absolute h-auto bottom-0 w-[50%] -left-[19%] sm:w-[45%] sm:-left-[12%] md:w-[40%] md:-left-[5%] lg:w-[40%] lg:-left-[5%] xl:max-w-[480px] xl:left-[0%] z-10'
             src='/assets/imgpage/joven-hermosa-modelo-posando 1.png'
-            alt='image description'
+            alt='joven-hermosa-modelo-posando'
           />
           <img
-            className='absolute h-auto w-[70%] left-[10%] bottom-0 sm:w-[55%] sm:left-[15%] lg:w-[50%] lg:left-[15%] lg:-top-60 xl:bottom-[0%] z-20'
+            className='absolute h-auto bottom-0 w-[55%] left-[11%] sm:w-[50%] sm:left-[15.5%] md:w-[45%] md:left-[18%] lg:w-[45%] lg:left-[18%] xl:max-w-[500px] xl:left-[23%] z-20'
             src='/assets/imgpage/disparo-cabeza-atractiva-chica-raza-mixta 1.png'
-            alt='image description'
+            alt='chica-atractiva'
           />
           <img
-            className='absolute h-auto w-[75%] -right-[18%] bottom-0 sm:w-[55%] sm:-right-[5%] lg:w-[50%] lg:-right-[1%] lg:-top-60 xl:bottom-[0%] z-10'
+            className='absolute h-auto bottom-0 w-[60%] -right-[10%] sm:w-[53%] sm:-right-[5%] md:w-[50%] md:right-[5%] lg:w-[50%] lg:right-[5%] xl:max-w-[520px] xl:right-[8%] z-10'
             src='/assets/imgpage/modelos-caucasicos-asiaticos-primer-plano-posando-juntos 1.png'
-            alt='image description'
+            alt='modelos-caucasicos-asiaticos-primer-plano-posando-juntos'
           />
         </div>
-        <span className='self-center sm:flex sm:pt-10 lg:pt-48 xl:pt-52 z-20'>
-          <p className='pt-10 px-5 md:pt-0 md:px-24 lg:pt-0 lg:px-36  text-sm md:text-lg lg:text-2xl text-palette-Auburn md:text-slate-800 font-UrbanistMedium dark:text-gray-400 '>
+        <span className='self-center sm:flex py-6 sm:py-10 xl:py-14 z-20'>
+          <p className=' px-5 sm:px-12 md:px-24 lg:px-36 text-sm md:text-lg lg:text-2xl text-slate-700 font-UrbanistMedium'>
             En este lugar vas a encontrar todos los servicios y capacitaciones
             que necesites para que te sigas formando en el mundo de la estética.
             Encontrarán infinitas posibilidades donde podrás potenciar tus
@@ -64,16 +61,16 @@ const Presentation = () => {
             manos, el intercambio de la energía y el amor.
           </p>
         </span>
-        <span className='flex py-12 lg:py-18 justify-center z-20'>
+        <span className='flex justify-center py-3 sm:py-8 md:py-10 lg:py-18  z-20'>
           <img
-            className='w-[45%] md:w-1/4 lg:w-[31%]'
+            className='w-[35%] sm:w-1/3 md:w-1/4 lg:w-[31%] xl:w-[320px]'
             src='/assets/imgpage/Bossy2_Mesa de trabajo 1 1.png'
             alt=''
           />
         </span>
       </div>
       {/* -top-[13rem] sm:top-10 md:top-14 lg:top-32 */}
-
+      {/* top-0 sm:top-[0%] md:top-14 lg:top-32 svg*/}
     </div>
   )
 }
