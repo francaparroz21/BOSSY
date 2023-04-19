@@ -1,159 +1,98 @@
-import { NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { products } from '../assets/courses/data.json'
-import CarouselItem from './CarouselItem'
+import { CarouselItem } from './CarouselItem'
 import Headers from './Elements/Headers'
 
-export const NewCarousel = () => {
-  return (
-    <div className='w-full flex flex-col gap-3 md:gap-10 lg:gap-5'>
-      <Headers title={'Productos'} />
-      <div className='flex flex-col align-middle mb-[26rem] lg:mb-5 '>
-        <div
-          className='relative'
-          id='animation-carousel'
-          data-carousel='static'
-        >
-          {/* <!-- Carousel wrapper --> */}
-          <div className='relative h-44 md:h-[15rem] lg:h-[36rem] mx-1 rounded-lg bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink'>
-            {products.map((el) => (
-              <CarouselItem
-                key={el.id}
-                img={el.img}
-                desc={el.desc}
-                title={el.title}
-                benef={el.benef}
-                principiosactivos={el.principioactivo}
-                mododeuso={el.mododeuso}
-              />
-            ))}
+export const ProductsCarrusel = () => {
+  const [selectedIndex, useSelectedIndex] = useState(0)
+  const [selectedProduct, useSelectedProduct] = useState({})
+  const [isVisible, setIsVisible] = useState(false)
 
-            {/* <!-- Item 1 --> */}
-            <div
-              className='hidden duration-150 ease-linear'
-              data-carousel-item='active'
+  useEffect(() => {
+    const PRODUCTS = products.map(el => el)
+    useSelectedProduct(PRODUCTS[selectedIndex])
+    setIsVisible(true)
+    return () => {
+      setIsVisible(false)
+    }
+  }, [selectedIndex])
+
+  const selectNewIndex = (index, forward) => {
+    const images = products.map(el => el.img)
+    const condition = forward ? index < images.length - 1 : index > 0
+    const nextIndex = forward ? (condition ? index + 1 : 0) : (condition ? index - 1 : images.length - 1)
+    useSelectedIndex(nextIndex)
+  }
+  const previous = () => {
+    selectNewIndex(selectedIndex, false)
+  }
+  const next = () => {
+    selectNewIndex(selectedIndex, true)
+  }
+
+  return (
+    <section className='w-full flex flex-col gap-3 md:gap-10 lg:gap-5'>
+      <Headers title={'Productos'} />
+      <div className='relative h-64 sm:h-52 md:h-[17.5rem] lg:h-[36rem] mx-1 mb-[26rem] lg:mb-5 rounded-lg bg-gradient-to-b from-palette-ChampagnePink to-palette-OrchidPink'>
+        <CarouselItem
+          key={selectedProduct.title}
+          img={selectedProduct.img}
+          desc={selectedProduct.desc}
+          title={selectedProduct.title}
+          benef={selectedProduct.benef}
+          principiosactivos={selectedProduct.principioactivo}
+          mododeuso={selectedProduct.mododeuso}
+          className={`transition-opacity duration-1000 ease-in-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+        />
+        <button
+          onClick={previous}
+          type='button'
+          className='absolute top-0 left-0 z-30 flex items-center justify-center h-full px-1 md:px-4 cursor-pointer group focus:outline-none'
+        >
+          <span className='inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none'>
+            <svg
+              aria-hidden='true'
+              className='w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+              xmlns='http://www.w3.org/2000/svg'
             >
-              <img
-                src='/assets/imgproducts/alpine-rose-cleancer.png'
-                className='absolute block w-[45%] sm:w-[40%] md:w-[35%] lg:w-[25%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:left-1/4 hover:brightness-105 transition-all'
-                alt='alpine-rose-cleancer'
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                d='M15 19l-7-7 7-7'
               />
-              <div className='absolute hidden lg:block w-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 -right-1/4 mr-24'>
-                <div className='flex flex-col bg-[#F5F5F5]/70 p-3 px-5 rounded-xl'>
-                  <p className=' font-bold font-UrbanistBold mb-2'>
-                    ALPINE ROSES CLEANSER EMULSION
-                  </p>
-                  <p className=' text-lg font-semibold font-UrbanistSemibold'>
-                    Limpiador suave facial
-                  </p>
-                  <p className=' text-slate-700 clear-left text-lg font-Urbanist'>
-                    Formula innovadora que produce una microemulsión y efectúa
-                    una limpieza profunda pero sin irritar la piel. <br />
-                    - Limpia y desmaquilla <br />
-                    - No altera el equilibrio natural de la piel <br />- Ideal
-                    para pieles sensibles o delicadas
-                  </p>
-                  <p className=' text-lg font-UrbanistSemibold'>Modo de uso</p>
-                  <p className=' text-slate-700 clear-left text-lg font-Urbanist'>
-                    Aplicar una pequeña cantidad de producto en rostro, cuello y
-                    escote. Masajear unos segundos y luego enjuagar con algodón
-                    o esponjas embebidas en agua. El enjuague debe ser completo
-                    sin dejar residuos de producto. También se puede utilizar
-                    para el desmaquillado de párpados y labios.
-                  </p>
-                  <NavLink
-                    className=' inline-flex items-center px-12 py-1.5 mt-auto ml-auto text-center text-lg font-UrbanistMedium text-gray-100 bg-palette-SoftAuburn rounded-lg hover:bg-palette-Auburn focus:ring-3 focus:outline-none focus:ring-palette-ChampagnePink'
-                    to='#'
-                  >
-                    Ver Catálogo
-                  </NavLink>
-                </div>
-              </div>
-              <div className='absolute block lg:hidden w-full top-full'>
-                <div className='flex flex-col bg-[#F5F5F5] p-3 px-7'>
-                  <p className=' font-bold font-UrbanistBold mb-2'>
-                    ALPINE ROSES CLEANSER EMULSION
-                  </p>
-                  <p className='text-base md:text-lg font-semibold font-UrbanistSemibold'>
-                    Limpiador suave facial
-                  </p>
-                  <p className='text-sm md:text-lg  text-slate-700 clear-left  font-Urbanist'>
-                    Formula innovadora que produce una microemulsión y efectúa
-                    una limpieza profunda pero sin irritar la piel. <br />
-                    - Limpia y desmaquilla <br />
-                    - No altera el equilibrio natural de la piel <br />- Ideal
-                    para pieles sensibles o delicadas
-                  </p>
-                  <p className='text-base md:text-lg font-semibold font-UrbanistSemibold'>
-                    Modo de uso
-                  </p>
-                  <p className='text-sm md:text-lg  text-slate-700 clear-left  font-Urbanist'>
-                    Aplicar una pequeña cantidad de producto en rostro, cuello y
-                    escote. Masajear unos segundos y luego enjuagar con algodón
-                    o esponjas embebidas en agua. El enjuague debe ser completo
-                    sin dejar residuos de producto. También se puede utilizar
-                    para el desmaquillado de párpados y labios.
-                  </p>
-                  <NavLink
-                    className='inline-flex items-center px-12 py-1.5 mt-3 ml-auto text-center text-xs md:text-lg font-UrbanistMedium text-gray-100 bg-palette-SoftAuburn rounded-lg hover:bg-palette-Auburn focus:ring-3 focus:outline-none focus:ring-palette-ChampagnePink'
-                    to='#'
-                  >
-                    Ver Catálogo
-                  </NavLink>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- Slider controls --> */}
-          <button
-            type='button'
-            className='absolute top-0 left-0 z-30 flex items-center justify-center h-full px-1 md:px-4 cursor-pointer group focus:outline-none'
-            data-carousel-prev
-          >
-            <span className='inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none'>
-              <svg
-                aria-hidden='true'
-                className='w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800'
-                fill='none'
-                stroke='currentColor'
-                viewBox='0 0 24 24'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M15 19l-7-7 7-7'
-                />
-              </svg>
-              <span className='sr-only'>Previous</span>
-            </span>
-          </button>
-          <button
-            type='button'
-            className='absolute top-0 right-0 z-30 flex items-center justify-center h-full px-1 md:px-4 cursor-pointer group focus:outline-none'
-            data-carousel-next
-          >
-            <span className='inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none'>
-              <svg
-                aria-hidden='true'
-                className='w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800'
-                fill='none'
-                stroke='currentColor'
-                viewBox='0 0 24 24'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M9 5l7 7-7 7'
-                />
-              </svg>
-              <span className='sr-only'>Next</span>
-            </span>
-          </button>
-        </div>
+            </svg>
+            <span className='sr-only'>Previous</span>
+          </span>
+        </button>
+        <button
+          onClick={next}
+          type='button'
+          className='absolute top-0 right-0 z-30 flex items-center justify-center h-full px-1 md:px-4 cursor-pointer group focus:outline-none'
+        >
+          <span className='inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none'>
+            <svg
+              aria-hidden='true'
+              className='w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                d='M9 5l7 7-7 7'
+              />
+            </svg>
+            <span className='sr-only'>Next</span>
+          </span>
+        </button>
       </div>
-    </div>
+    </section>
   )
 }
