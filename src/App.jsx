@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import { NewCarousel } from './components/Products'
+import { ProductsCarrusel } from './components/Products'
 import Presentation from './components/Presentation'
 import Faq from './components/FAQ'
 import About from './components/About'
@@ -20,7 +20,7 @@ function App() {
           <Route path='/quien-soy' element={<About />} />
           <Route path='/servicios' element={<Services />} />
           <Route path='/servicios/:servicioId' element={<Services />} />
-          <Route path='/productos' element={<NewCarousel />} />
+          <Route path='/productos' element={<ProductsCarrusel />} />
           <Route path='/capacitaciones' element={<Courses />} />
           <Route
             path='/capacitaciones/:capacitacionesId'
