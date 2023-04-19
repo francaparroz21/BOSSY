@@ -1,14 +1,15 @@
 import Headers from './Elements/Headers'
+
 const About = () => {
   return (
-    <div className='flex flex-col gap-3 lg:gap-5 items-center  '>
+    <div className='flex flex-col gap-3 lg:gap-5 items-center'>
       <Headers title={'¿Quién soy?'} />
-      <section className='relative flex flex-col md:flex-row gap-3 px-3 lg:gap-5 mb-6 justify-around items-center bg-gradient-to-b from-palette-OrchidPink to-palette-ChampagnePink'>
+      <section className='relative flex flex-col md:flex-row gap-3 px-6 lg:gap-5 mb-6 justify-around items-center bg-gradient-to-b from-palette-OrchidPink to-palette-ChampagnePink'>
         <div className='flex relative justify-center md:basis-1/3 md:h-[33rem] overflow-hidden '>
           <img
-            className='elipseAbout-small md:elipseAbout-medium lg:elipseAbout-large xl:elipseAbout md:absolute w-[10rem] md:w-[18rem] xl:w-[22rem] md:top-5 lg:-top-5 xl:-top-10 md:object-cover hover:brightness-105 transition-all'
-            src='/assets/imgpage/4ED63C86-96F4-4105-9AB9-C0A86FBA9FD2.jpg'
-            alt='imagen-de-valentina-bossy'
+            className=' md:absolute w-[10rem] md:w-[18rem] xl:w-[22rem] md:top-5 lg:-top-5 xl:-top-10  md:object-cover hover:brightness-105 transition-all'
+            src='/assets/imgpage/imagen-de-valentina-bossy-la-creadora-de-bossy-skincare.png'
+            alt='imagen-de-valentina-bossy-la-creadora-de-bossy-skincare'
           />
         </div>
         <div className='flex md:basis-2/3 self-center z-20'>
@@ -40,5 +41,5 @@ const About = () => {
     </div>
   )
 }
-
+// elipseAbout - small md: elipseAbout - medium lg: elipseAbout - large xl: elipseAbout
 export default About
