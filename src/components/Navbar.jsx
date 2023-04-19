@@ -65,7 +65,7 @@ const Navbar = () => {
 
   ]
   return (
-    <nav className='w-full my-0 md:my-2 sm:m-0 rounded border-gray-200 dark:bg-gray-900'>
+    <nav className='w-full my-0 sm:m-0 lg:-mt-5 rounded border-slate-200'>
       <div className='flex md:flex-nowrap md:items-center md:mx-auto'>
         <NavLink
           className='block lg:hidden first-letter:w-fit p-5 hover:brightness-110 transition-all'
