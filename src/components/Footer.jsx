@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className=' w-full py-14 pb-24 md:pt-14 md:pb-[7rem] lg:py-7 lg:z-50 isolate bg-palette-ChampagnePink'>
       <div className='flex justify-center'>
         <div className='flex justify-center items-center md:ml-0 lg:ml-96 flex-col '>
-          <p className='text-center text-sm text-palette-Auburn p-0 md:text-xl font-Urbanist'>
+          <p className='text-center text-sm text-palette-Auburn p-0 md:text-xl lg:text-2xl font-Urbanist'>
             Encontranos en
           </p>
           <div className='flex justify-center gap-4'>
@@ -55,7 +55,7 @@ const Footer = () => {
         <div className='mg:ml-10 lg:ml-52'>
           <a className='w-fit' href='#'>
             <img
-              className='w-[106px] md:w-[120px] lg:w-[200px]'
+              className='w-[106px] md:w-[120px] lg:w-[200px] xl:w-[280px]'
               src='/assets/imgpage/Bossy2_Mesa de trabajo 1 1.png'
               alt=''
             />
