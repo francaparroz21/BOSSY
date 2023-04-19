@@ -8,7 +8,7 @@ const Card = ({ img, title, direction }) => {
         src={`/assets/imgservices/${img}`}
         alt={`${img}`}
       />
-      <h5 className='grow px-2 lg:px-8 text-center text-base md:text-md lg:text-xl font-Urbanist text-slate-700'>
+      <h5 className='grow px-2 lg:px-8 mt-auto text-center text-base md:text-md lg:text-xl font-Urbanist text-slate-700'>
         {title}
       </h5>
       <Button title={title} info={true} direction={direction} />
