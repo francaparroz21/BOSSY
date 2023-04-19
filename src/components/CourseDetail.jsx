@@ -16,7 +16,7 @@ const CourseDetail = ({ capacitacionesId }) => {
   }
 
   return (
-    <div className='container grid gap-6 lg:gap-10 mb-10'>
+    <div className='w-full grid gap-6 lg:gap-10 mb-10'>
       <Headers title={capacitacionesId} />
       {Check(item.img) ? (
         <div className='flex flex-wrap-reverse gap-3 lg:gap-12 px-6 justify-center'>
