@@ -18,27 +18,27 @@ const Services = () => {
       ) : (
         <>
           <Headers title={" Facial y Corporal"}></Headers>
-          <div className='w-full grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 '>
+          <div className='w-full grid justify-items-center grid-cols-special xl:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 bg-palette-ChampagnePink/60 '>
             {FIRSTSERVICECLASS.map((service) => (
-              <Card
-                key={service.id}
-                img={service.img[0]}
-                title={service.title}
-                direction={'servicios'}
-              ></Card>
+              <a href={`/servicios/${service.title}`} className='w-fit' key={service.id}>
+                <Card
+                  img={service.img[0]}
+                  title={service.title}
+                  direction={'servicios'}
+                ></Card>
+              </a>
             ))}
           </div>
           <Headers title={"Cejas - Pestañas y Maquillaje"}></Headers>
-          <div className='w-full grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 '>
+          <div className='w-full grid justify-items-center grid-cols-special xl:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 bg-palette-ChampagnePink/60 '>
             {SECONDSERVICECLASS.map((service) => (
-              <Card
-                id={service.id}
-                img={service.img[0]}
-                title={service.title}
-                key={service.id}
-                direction={'servicios'}
-
-              ></Card>
+              <a href={`/servicios/${service.title}`} className='w-fit' key={service.id}>
+                <Card
+                  img={service.img[0]}
+                  title={service.title}
+                  direction={'servicios'}
+                ></Card>
+              </a>
             ))}
           </div>
         </>

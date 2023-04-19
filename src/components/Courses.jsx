@@ -11,24 +11,25 @@ const Courses = () => {
       {capacitacionesId
         ? (
           <>
-            <CourseDetail capacitacionesId={capacitacionesId}/>
+            <CourseDetail capacitacionesId={capacitacionesId} />
           </>
-          )
+        )
         : (
           <>
             <Headers title={'Capacitaciones'}></Headers>
-            <div className='w-full grid justify-items-center grid-cols-special lg:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5'>
+            <div className='w-full grid justify-items-center grid-cols-special xl:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 bg-palette-ChampagnePink/60 '>
               {courses.map((course) => (
-                <Card
-                key={course.id}
-                img={course.img[0]}
-                title={course.title}
-                direction={'capacitaciones'}
-              ></Card>
+                <a href={`/servicios/${course.title}`} className='w-fit' key={course.id}>
+                  <Card
+                    img={course.img[0]}
+                    title={course.title}
+                    direction={'capacitaciones'}
+                  ></Card>
+                </a>
               ))}
             </div>
           </>
-          )}
+        )}
     </div>
   )
 }
