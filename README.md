@@ -7,7 +7,7 @@ Bossy Skincare es una página estática hecha en React y TailwindCSS
 To deploy this project run
 
 ```clone
-  git clone repo
+  gh repo clone FrancoSaldano/BOSSY
   cd FrancoSaldano/BOSSY
   npm install
   npm run dev
