@@ -17,7 +17,11 @@ const Services = () => {
     setFirstServices(FIRSTSERVICECLASS)
     setSecondServices(SECONDSERVICECLASS)
     setParam(servicioId)
-  }, [])
+    console.log(servicioId)
+    return () => {
+      console.log(servicioId)
+    }
+  }, [servicioId])
 
   return (
     <div className='w-full flex flex-col'>
