@@ -6,7 +6,7 @@ const NavItem = ({ link, svg, svgActive, isActive, onClick }) => {
         <>
             <li className='mt-auto'>
                 <NavLink
-                    to={link}
+                    to={`#/${link}`}
                     onClick={onClick}
                     className={({ isActive }) => {
                         return (

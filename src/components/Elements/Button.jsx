@@ -1,12 +1,12 @@
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Button = ({ title, info, direction }) => {
   return (
     <>
       {info ? (
-        <NavLink
+        <Link
           className=' inline-flex items-center px-9 py-1 lg:px-12 lg:py-1.5 mt-auto text-center text-sm md:text-base lg:text-lg font-UrbanistMedium text-gray-100 bg-palette-SoftAuburn rounded-lg hover:bg-palette-Auburn focus:ring-3 focus:outline-none focus:ring-palette-ChampagnePink cursor-pointer'
-          to={`/${direction}/${title}`}
+          to={`#/${direction}/${title}`}
         >
           <svg
             className='w-3 lg:w-5'
@@ -39,7 +39,7 @@ const Button = ({ title, info, direction }) => {
             </g>
           </svg>
           {"Info"}
-        </NavLink>
+        </Link>
       ) : (
         <a
           className=' inline-flex items-center px-9 py-1 lg:px-12 lg:py-1.5 ml-auto mr-5 md:mr-10 lg:mr-15 text-center text-sm md:text-base lg:text-lg font-UrbanistMedium text-gray-100 bg-palette-SoftAuburn rounded-lg hover:bg-palette-Auburn focus:ring-3 focus:outline-none focus:ring-palette-ChampagnePink cursor-pointer transition-colors'
