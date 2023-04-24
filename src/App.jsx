@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import { ProductsCarrusel } from './components/Products'
 import Presentation from './components/Presentation'
@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='App w-full relative overflow-hidden'>
         <Navbar />
         <Routes>
@@ -31,7 +31,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
