@@ -6,12 +6,12 @@ import Card from "./Elements/Card"
 import { useEffect, useState } from 'react'
 
 const Services = () => {
+  const { servicioId } = useParams()
   const [param, setParam] = useState('')
-  const [firstServices, setFirstServices] = useState({})
-  const [secondServices, setSecondServices] = useState({})
+  const [firstServices, setFirstServices] = useState()
+  const [secondServices, setSecondServices] = useState()
 
   useEffect(() => {
-    const { servicioId } = useParams()
     const FIRSTSERVICECLASS = services.FYC
     const SECONDSERVICECLASS = services.CPYM
     setFirstServices(FIRSTSERVICECLASS)
@@ -30,25 +30,23 @@ const Services = () => {
           <Headers title={" Facial y Corporal"}></Headers>
           <div className='w-full grid justify-items-center grid-cols-special xl:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 bg-palette-ChampagnePink/60 '>
             {firstServices ? firstServices.map((service) => (
-              <a href={`/servicios/${service.title}`} className='w-fit' key={service.id}>
-                <Card
-                  img={service.img[0]}
-                  title={service.title}
-                  direction={'servicios'}
-                ></Card>
-              </a>
+              <Card
+                img={service.img[0]}
+                title={service.title}
+                direction={'servicios'}
+                key={service.title}
+              ></Card>
             )) : <></>}
           </div>
           <Headers title={"Cejas - Pestañas y Maquillaje"}></Headers>
           <div className='w-full grid justify-items-center grid-cols-special xl:grid-cols-4 grid-auto-row gap-3 md:gap-6 lg:gap-10 p-3 md:p-5 bg-palette-ChampagnePink/60 '>
             {secondServices ? secondServices.map((service) => (
-              <a href={`/servicios/${service.title}`} className='w-fit' key={service.id}>
-                <Card
-                  img={service.img[0]}
-                  title={service.title}
-                  direction={'servicios'}
-                ></Card>
-              </a>
+              <Card
+                img={service.img[0]}
+                title={service.title}
+                direction={'servicios'}
+                key={service.title}
+              ></Card>
             )) : <></>}
           </div>
         </>
