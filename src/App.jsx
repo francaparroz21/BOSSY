@@ -16,18 +16,18 @@ function App() {
       <div className='App w-full relative overflow-hidden'>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Presentation />} />
-          <Route path='/quien-soy' element={<About />} />
-          <Route path='/servicios' element={<Services />} />
-          <Route path='/servicios/:servicioId' element={<Services />} />
-          <Route path='/productos' element={<ProductsCarrusel />} />
-          <Route path='/capacitaciones' element={<Courses />} />
-          <Route
+          <Route exact path='/' element={<Presentation />} />
+          <Route exact path='/quien-soy' element={<About />} />
+          <Route exact path='/servicios' element={<Services />} />
+          <Route exact path='/servicios/:servicioId' element={<Services />} />
+          <Route exact path='/productos' element={<ProductsCarrusel />} />
+          <Route exact path='/capacitaciones' element={<Courses />} />
+          <Route exact
             path='/capacitaciones/:capacitacionesId'
             element={<Courses />}
           />
-          <Route path='/faq' element={<Faq />} />
-          <Route path='/tips' element={<Tips />} />
+          <Route exact path='/faq' element={<Faq />} />
+          <Route exact path='/tips' element={<Tips />} />
         </Routes>
         <Footer />
       </div>
